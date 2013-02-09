@@ -1,0 +1,26 @@
+<?php
+// created: 2012-10-12 17:47:07
+$mod_strings = array (
+  'LBL_FAX_PHONE' => 'Teléfono Alternativo',
+  'LBL_MOBILE_PHONE' => 'Celular',
+  'LBL_PRIMARY_ADDRESS_STREET' => 'Dirección de Oficina',
+  'LBL_ALT_ADDRESS_STREET' => 'Dirección de Planta',
+  'LBL_DESCRIPTION' => 'Observaciones',
+  'LBL_TWITTER' => 'Twitter',
+  'LBL_POSICION_GERS' => 'Posición frente a GERS',
+  'LBL_TIPS_TRATO' => 'Tips del trato',
+  'LBL_ROL_NEGOCIACION' => 'Rol de la negociación',
+  'LBL_CORREOS_GERS' => '¿Desea recibir correos electronicos con información de GERS?',
+  'LBL_CONTACTO_AREA' => 'Contacto de área',
+  'LBL_ACCOUNT_NAME' => 'Cliente:',
+  'LBL_ACCOUNT_ID' => 'ID de cuenta',
+  'LBL_LIST_ACCOUNT_NAME' => 'Cliente',
+  'LBL_ALTERNATE_ADDRESS' => 'Dirección de Planta:',
+  'LBL_ALT_ADDRESS' => 'Dirección de Planta',
+  'LBL_PRIMARY_ADDRESS' => 'Dirección de Oficina',
+  'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Cotizaciones',
+  'LBL_OPPORTUNITIES' => 'Cotizaciónes',
+  'LBL_OPPORTUNITY_ROLE' => 'Rol en Cotización',
+  'LBL_OPPORTUNITY_ROLE_ID' => 'ID de Rol en Cotización:',
+  'LBL_BIRTHDATE' => 'Fecha de Nacimiento:',
+);

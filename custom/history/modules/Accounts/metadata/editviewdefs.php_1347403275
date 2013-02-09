@@ -1,0 +1,228 @@
+<?php
+$viewdefs ['Accounts'] = 
+array (
+  'EditView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'form' => 
+      array (
+        'buttons' => 
+        array (
+          0 => 'SAVE',
+          1 => 'CANCEL',
+        ),
+      ),
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'includes' => 
+      array (
+        0 => 
+        array (
+          'file' => 'modules/Accounts/Account.js',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'LBL_ACCOUNT_INFORMATION' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_PANEL_ADVANCED' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_PANEL_ASSIGNMENT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+    ),
+    'panels' => 
+    array (
+      'lbl_account_information' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'identificacion',
+            'label' => 'LBL_IDENTIFICACION',
+          ),
+          1 => 
+          array (
+            'name' => 'tipo_identificacion',
+            'label' => 'LBL_TIPO_IDENTIFICACION',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'name',
+            'label' => 'LBL_NAME',
+            'displayParams' => 
+            array (
+              'required' => true,
+            ),
+          ),
+          1 => 
+          array (
+            'name' => 'razon_comercial',
+            'label' => 'LBL_RAZON_COMERCIAL',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'billing_address_street',
+            'hideLabel' => true,
+            'type' => 'address',
+            'displayParams' => 
+            array (
+              'key' => 'billing',
+              'rows' => 2,
+              'cols' => 30,
+              'maxlength' => 150,
+            ),
+          ),
+          1 => 
+          array (
+            'name' => 'shipping_address_street',
+            'hideLabel' => true,
+            'type' => 'address',
+            'displayParams' => 
+            array (
+              'key' => 'shipping',
+              'copy' => 'billing',
+              'rows' => 2,
+              'cols' => 30,
+              'maxlength' => 150,
+            ),
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'phone_office',
+            'label' => 'LBL_PHONE_OFFICE',
+          ),
+          1 => 
+          array (
+            'name' => 'email_corporativo',
+            'label' => 'LBL_EMAIL_CORPORATIVO',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'website',
+            'type' => 'link',
+            'label' => 'LBL_WEBSITE',
+          ),
+          1 => '',
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'billing_address_city',
+            'comment' => 'The city used for billing address',
+            'label' => 'LBL_BILLING_ADDRESS_CITY',
+          ),
+          1 => 
+          array (
+            'name' => 'billing_address_country',
+            'comment' => 'The country used for the billing address',
+            'label' => 'LBL_BILLING_ADDRESS_COUNTRY',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'sector_economico',
+            'label' => 'LBL_SECTOR_ECONOMICO',
+          ),
+          1 => 
+          array (
+            'name' => 'calificacion',
+            'label' => 'LBL_CALIFICACION',
+          ),
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'tamanio_facturacion',
+            'label' => 'LBL_TAMANIO_FACTURACION',
+          ),
+          1 => 
+          array (
+            'name' => 'total_vendido_con_gers',
+            'label' => 'LBL_TOTAL_VENDIDO_CON_GERS',
+          ),
+        ),
+      ),
+      'LBL_PANEL_ADVANCED' => 
+      array (
+        0 => 
+        array (
+          0 => 'account_type',
+          1 => 'industry',
+        ),
+        1 => 
+        array (
+          0 => 'annual_revenue',
+          1 => 'employees',
+        ),
+        2 => 
+        array (
+          0 => 'sic_code',
+          1 => 'ticker_symbol',
+        ),
+        3 => 
+        array (
+          0 => 'parent_name',
+          1 => 'ownership',
+        ),
+        4 => 
+        array (
+          0 => 'campaign_name',
+          1 => 'rating',
+        ),
+      ),
+      'LBL_PANEL_ASSIGNMENT' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+?>

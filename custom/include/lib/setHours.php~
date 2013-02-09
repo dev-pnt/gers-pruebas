@@ -1,0 +1,62 @@
+<?php
+global $db;
+
+$id = $_REQUEST['id'];
+/**
+$st = "SELECT project_id AS id_proyecto
+FROM projects_opportunities
+WHERE opportunity_id
+IN ( SELECT opportunities_af_actividadcotizaciones_1opportunities_ida
+FROM opportunities_af_actividadcotizaciones_1_c
+WHERE opportunit3e39aciones_idb = '$id')";
+**/
+$st = "SELECT * FROM project_task WHERE id = '$id'";
+
+$res = $db->query($st);
+
+$data = $db->fetchByAssoc($res);
+
+$idp = $data['project_id'];
+
+global $current_user;
+
+$id_usuario = $current_user->id;
+@$horas = $_REQUEST['horas'];
+$id_tarea = $id;
+$id_proyecto = $idp;	
+
+		
+$uphoras = "UPDATE project_task SET estimated_effort = '$horas' WHERE id = '$id'";
+$sql = "SELECT * FROM horas_causadas WHERE id_tarea = '$id'";
+$ret = $db->query($sql);
+$db->query($uphoras);
+
+if($horas != ""){
+
+if($ret->num_rows == 0){
+   $query = "INSERT INTO horas_causadas (id_usuario, fecha_registro, horas, id_tarea, id_proyecto) 
+	   VALUES ('$id_usuario', curdate(), $horas, '$id_tarea', '$id_proyecto');";
+         echo "<script>alert('Se han causado ".$horas." horas a esta actividad.'); window.close();</script>";
+	$db->query($query);
+} else {
+	$query = "UPDATE horas_causadas SET horas = $horas";
+	echo "<script>alert('Ahora se han causado ".$horas." horas a esta actividad.'); window.close();</script>";
+	$db->query($query);
+	
+}
+} else {
+	//Nothing
+	}
+
+
+
+
+
+		
+?>
+
+<form method="POST">
+	<label>Numero de Horas a Causar</label>
+	<input type="text" name="horas" />
+	<input type="submit" name="submit" value="Guardar" />
+</form>

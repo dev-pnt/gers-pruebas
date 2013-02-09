@@ -1,0 +1,254 @@
+<?php
+$viewdefs ['Opportunities'] = 
+array (
+  'DetailView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'form' => 
+      array (
+        'buttons' => 
+        array (
+          0 => 'EDIT',
+          1 => 'DUPLICATE',
+          2 => 'DELETE',
+          3 => 'FIND_DUPLICATES',
+          4 => 
+          array (
+            'customCode' => '<input type="hidden" name="create_flag" value="{$fields.create_flag.value}" >',
+          ),
+        ),
+      ),
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => true,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_DETAILVIEW_PANEL19' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL3' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_DETAILVIEW_PANEL18' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_DETAILVIEW_PANEL20' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => true,
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 'name',
+          1 => 'account_name',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'consecutivo_interno',
+            'label' => 'LBL_CONSECUTIVO_INTERNO',
+          ),
+          1 => 
+          array (
+            'name' => 'consecutivo_cliente',
+            'label' => 'LBL_CONSECUTIVO_CLIENTE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'consecutivo_automatico',
+            'label' => 'LBL_CONSECUTIVO_AUTOMATICO',
+          ),
+          1 => 
+          array (
+            'name' => 'departamento_encargado',
+            'label' => 'LBL_DEPARTAMENTO_ENCARGADO',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 'date_closed',
+          1 => 
+          array (
+            'name' => 'date_request',
+            'comment' => 'Expected or actual date the oppportunity was requested',
+            'label' => 'LBL_DATE_REQUEST',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'date_award',
+            'comment' => 'Expected or actual date the oppportunity was awarded',
+            'label' => 'LBL_DATE_AWARD',
+          ),
+          1 => 
+          array (
+            'name' => 'date_real_adjudicacion',
+            'comment' => 'Expected or actual date the oppportunity was awarded',
+            'label' => 'LBL_DATE_REAL_ADJUDICACION',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'date_cotizacion',
+            'comment' => 'Expected or actual date the oppportunity was QUOTED',
+            'label' => 'LBL_DATE_COTIZACION',
+          ),
+          1 => 
+          array (
+            'name' => 'etapas',
+            'label' => 'LBL_ETAPAS',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 'campaign_name',
+          1 => 'lead_source',
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'razones_perdida',
+            'label' => 'LBL_RAZONES_PERDIDA',
+          ),
+          1 => 
+          array (
+            'name' => 'probabilidad',
+            'label' => 'LBL_PROBABILIDAD',
+          ),
+        ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'opportunities_project_1_name',
+          ),
+          1 => 
+          array (
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO',
+          ),
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'amount',
+            'label' => '{$MOD.LBL_AMOUNT} ({$CURRENCY})',
+          ),
+          1 => 
+          array (
+            'name' => 'valor_real',
+            'label' => 'LBL_VALOR_REAL',
+          ),
+        ),
+        10 => 
+        array (
+          0 => 
+          array (
+            'name' => 'descuento',
+            'label' => 'LBL_DESCUENTO',
+          ),
+          1 => 
+          array (
+            'name' => 'forma_pago',
+            'label' => 'LBL_FORMA_PAGO',
+          ),
+        ),
+      ),
+      'lbl_detailview_panel19' => 
+      array (
+        0 => 
+        array (
+          0 => '',
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel3' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'linea',
+            'label' => 'LBL_LINEA',
+          ),
+          1 => 
+          array (
+            'name' => 'referencias',
+            'label' => 'LBL_REFERENCIAS',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+            'nl2br' => true,
+          ),
+        ),
+      ),
+      'lbl_detailview_panel18' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'costo_personal',
+            'studio' => 'visible',
+            'label' => 'LBL_COSTO_PERSONAL',
+            'customCode' => '{costo_personal id=$fields.id.value module="cotizacion"}',
+          ),
+        ),
+      ),
+      'lbl_detailview_panel20' => 
+      array (
+        0 => 
+        array (
+          0 => '',
+          1 => '',
+        ),
+      ),
+    ),
+  ),
+);
+?>

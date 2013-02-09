@@ -1,0 +1,513 @@
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] current_language is: es_es
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] Found cache backend SugarCacheZend
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] Found cache backend SugarCacheMemcache
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] Found cache backend SugarCacheMemcached
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] Found cache backend SugarCacheRedis
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] Found cache backend SugarCachesMash
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] Found cache backend SugarCacheAPC
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] Using cache backend SugarCacheAPC, since 940 is less than 1000
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] Found cache backend SugarCacheFile
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] Found cache backend SugarCacheWincache
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] Found cache backend SugarCacheMemory
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] rebuilding cache for Users
+Wed Jan 30 12:35:32 2013 [63897][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Users' AND  deleted = 0
+Wed Jan 30 12:35:32 2013 [63897][-none-][INFO] Query Execution Time:0.00027894973754883
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] rebuilding cache for Employees
+Wed Jan 30 12:35:32 2013 [63897][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Employees' AND  deleted = 0
+Wed Jan 30 12:35:32 2013 [63897][-none-][INFO] Query Execution Time:0.00027799606323242
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] rebuilding cache for EmailAddresses
+Wed Jan 30 12:35:32 2013 [63897][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='EmailAddresses' AND  deleted = 0
+Wed Jan 30 12:35:32 2013 [63897][-none-][INFO] Query Execution Time:0.00024509429931641
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] rebuilding cache for UserPreferences
+Wed Jan 30 12:35:32 2013 [63897][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='UserPreferences' AND  deleted = 0
+Wed Jan 30 12:35:32 2013 [63897][-none-][INFO] Query Execution Time:0.00024008750915527
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] rebuilding cache for Administration
+Wed Jan 30 12:35:32 2013 [63897][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Administration' AND  deleted = 0
+Wed Jan 30 12:35:32 2013 [63897][-none-][INFO] Query Execution Time:0.00027585029602051
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] Hook called: ::after_entry_point
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] Including Ext hook file for custom/application
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] Hook called: ::after_session_start
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] We have an authenticated user id: eb51c649-7eb7-9144-6a8d-50e5fbc06bc8
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] Hook called: Users::before_retrieve
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] Including module specific hook file for custom/modules/Users
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] Retrieve User : SELECT users.* FROM users  WHERE users.id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND users.deleted=0
+Wed Jan 30 12:35:32 2013 [63897][-none-][DEBUG] Limit Query:SELECT users.* FROM users  WHERE users.id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND users.deleted=0 Start: 0 count: 1
+Wed Jan 30 12:35:32 2013 [63897][-none-][INFO] Query:SELECT users.* FROM users  WHERE users.id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND users.deleted=0 LIMIT 0,1
+Wed Jan 30 12:35:32 2013 [63897][-none-][INFO] Query Execution Time:0.00034904479980469
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query:SELECT u1.first_name, u1.last_name from users  u1, users  u2 where u1.id = u2.reports_to_id AND u2.id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' and u1.deleted=0
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query Execution Time:0.00028085708618164
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] SugarBean[User].load_relationships, Loading relationship (reports_to_link).
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query:SELECT ea.email_address, ea.email_address_caps, ea.invalid_email, ea.opt_out, ea.date_created, ea.date_modified,
+                ear.id, ear.email_address_id, ear.bean_id, ear.bean_module, ear.primary_address, ear.reply_to_address, ear.deleted
+                FROM email_addresses ea LEFT JOIN email_addr_bean_rel ear ON ea.id = ear.email_address_id
+                WHERE ear.bean_module = 'Users'
+                AND ear.bean_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8'
+                AND ear.deleted = 0
+                ORDER BY ear.reply_to_address, ear.primary_address DESC
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query Execution Time:0.00057220458984375
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] Hook called: Users::after_retrieve
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] Current user is: pnt
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] Current user is: pnt
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] setting cookie ck_login_id_20 to eb51c649-7eb7-9144-6a8d-50e5fbc06bc8
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] setting cookie ck_login_language_20 to es_es
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] current_language is: es_es
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] rebuilding cache for Opportunities
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Opportunities' AND  deleted = 0
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query Execution Time:0.0002901554107666
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] Performing action: action_listview MODULE: Opportunities
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] rebuilding cache for Trackers
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Trackers' AND  deleted = 0
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query Execution Time:0.00031614303588867
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] Limit Query:SELECT item_id, item_summary, module_name, id FROM tracker WHERE id = (SELECT MAX(id) as id FROM tracker WHERE user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND deleted = 0 AND visible = 1) Start: 0 count: 50
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query:SELECT item_id, item_summary, module_name, id FROM tracker WHERE id = (SELECT MAX(id) as id FROM tracker WHERE user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND deleted = 0 AND visible = 1) LIMIT 0,50
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query Execution Time:0.0010108947753906
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Tracker: retrieving 10 items
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][WARN] Image dashboard.png not found
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] metadatafile=custom/modules/Opportunities/metadata/listviewdefs.php
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] rebuilding cache for Currencies
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Currencies' AND  deleted = 0
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query Execution Time:0.0002589225769043
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] Hook called: Currencies::before_retrieve
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] Retrieve Currency : SELECT currencies.* FROM currencies  WHERE currencies.id = '' AND currencies.deleted=0
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] Limit Query:SELECT currencies.* FROM currencies  WHERE currencies.id = '' AND currencies.deleted=0 Start: 0 count: 1
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query:SELECT currencies.* FROM currencies  WHERE currencies.id = '' AND currencies.deleted=0 LIMIT 0,1
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query Execution Time:0.00020194053649902
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] List View Where Clause: (opportunities.departamento_encargado in ('000CO') ) AND ( opportunities.linea in ('Megger'))
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] rebuilding cache for SavedSearch
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='SavedSearch' AND  deleted = 0
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query Execution Time:0.00021910667419434
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query:SELECT id, name FROM saved_search
+				  WHERE
+					deleted = '0' AND
+				  	assigned_user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND
+					search_module =  'Opportunities'
+				  ORDER BY name
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query Execution Time:0.00025296211242676
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEPRECATED] Using row number in fetchByAssoc is not portable and no longer supported. Please fix your code.
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query:SELECT id, name FROM saved_search
+                  WHERE
+                    deleted = '0' AND
+                    assigned_user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND
+                    search_module =  'Opportunities'
+                  ORDER BY name
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query Execution Time:0.00023698806762695
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEPRECATED] Using row number in fetchByAssoc is not portable and no longer supported. Please fix your code.
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] rebuilding cache for Campaigns
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Campaigns' AND  deleted = 0
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query Execution Time:0.00023198127746582
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] Sprites: alt attribute detected for jscalendar.gif
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] Sprites: alt attribute detected for jscalendar.gif
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] SugarBean[Opportunity].load_relationships, Loading relationship (accounts).
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] rebuilding cache for Accounts
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Accounts' AND  deleted = 0
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query Execution Time:0.00015997886657715
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] SugarBean[Opportunity].load_relationships, Loading relationship (assigned_user_link).
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] Limit Query: SELECT  opportunities.id , opportunities.consecutivo_automatico , opportunities.name  , accounts.name account_name, jtl0.account_id account_id, opportunities.description , opportunities.sales_stage , opportunities.amount , opportunities.currency_id , opportunities.valor_real , opportunities.date_closed  , LTRIM(RTRIM(CONCAT(IFNULL(jt1.first_name,''),' ',IFNULL(jt1.last_name,'')))) assigned_user_name , jt1.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, opportunities.date_entered , opportunities.departamento_encargado , opportunities.linea , opportunities.assigned_user_id  FROM opportunities   LEFT JOIN  accounts_opportunities jtl0 ON opportunities.id=jtl0.opportunity_id AND jtl0.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl0.account_id AND accounts.deleted=0
+ AND accounts.deleted=0  LEFT JOIN  users jt1 ON opportunities.assigned_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0 where ((opportunities.departamento_encargado in ('000CO') ) AND ( opportunities.linea in ('Megger'))) AND opportunities.deleted=0 ORDER BY opportunities.consecutivo_automatico ASC Start: 0 count: 21
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query: SELECT  opportunities.id , opportunities.consecutivo_automatico , opportunities.name  , accounts.name account_name, jtl0.account_id account_id, opportunities.description , opportunities.sales_stage , opportunities.amount , opportunities.currency_id , opportunities.valor_real , opportunities.date_closed  , LTRIM(RTRIM(CONCAT(IFNULL(jt1.first_name,''),' ',IFNULL(jt1.last_name,'')))) assigned_user_name , jt1.created_by assigned_user_name_owner  , 'Users' assigned_user_name_mod, opportunities.date_entered , opportunities.departamento_encargado , opportunities.linea , opportunities.assigned_user_id  FROM opportunities   LEFT JOIN  accounts_opportunities jtl0 ON opportunities.id=jtl0.opportunity_id AND jtl0.deleted=0
+
+ LEFT JOIN  accounts accounts ON accounts.id=jtl0.account_id AND accounts.deleted=0
+ AND accounts.deleted=0  LEFT JOIN  users jt1 ON opportunities.assigned_user_id=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0 where ((opportunities.departamento_encargado in ('000CO') ) AND ( opportunities.linea in ('Megger'))) AND opportunities.deleted=0 ORDER BY opportunities.consecutivo_automatico ASC LIMIT 0,21
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query Execution Time:0.0005340576171875
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] Hook called: Opportunities::after_ui_frame
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] Including module specific hook file for custom/modules/Opportunities
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query:SELECT meetings.id, name,reminder_time, description,location, date_start, assigned_user_id
+			FROM meetings LEFT JOIN meetings_users ON meetings.id = meetings_users.meeting_id
+			WHERE meetings_users.user_id ='eb51c649-7eb7-9144-6a8d-50e5fbc06bc8'
+				AND meetings_users.accept_status != 'decline'
+				AND meetings.reminder_time != -1
+				AND meetings_users.deleted != 1
+				AND meetings.status != 'Held'
+			    AND date_start >= '2013-01-30 17:35:32'
+			    AND date_start <= '2013-01-30 18:35:32'
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query Execution Time:0.00025200843811035
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query:
+				SELECT calls.id, name, reminder_time, description, date_start
+				FROM calls LEFT JOIN calls_users ON calls.id = calls_users.call_id
+				WHERE calls_users.user_id ='eb51c649-7eb7-9144-6a8d-50e5fbc06bc8'
+				    AND calls_users.accept_status != 'decline'
+				    AND calls.reminder_time != -1
+					AND calls_users.deleted != 1
+					AND calls.status != 'Held'
+				    AND date_start >= '2013-01-30 17:35:32'
+				    AND date_start <= '2013-01-30 18:35:32'
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][INFO] Query Execution Time:0.00019383430480957
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] Hook called: ::after_ui_footer
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] Hook called: ::server_round_trip
+Wed Jan 30 12:35:32 2013 [63897][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][DEBUG] Calling MySQLi::disconnect()
+Wed Jan 30 12:35:40 2013 [64030][-none-][DEBUG] current_language is: es_es
+Wed Jan 30 12:35:40 2013 [64030][-none-][DEBUG] Found cache backend SugarCacheZend
+Wed Jan 30 12:35:40 2013 [64030][-none-][DEBUG] Found cache backend SugarCacheMemcache
+Wed Jan 30 12:35:40 2013 [64030][-none-][DEBUG] Found cache backend SugarCacheMemcached
+Wed Jan 30 12:35:40 2013 [64030][-none-][DEBUG] Found cache backend SugarCacheRedis
+Wed Jan 30 12:35:40 2013 [64030][-none-][DEBUG] Found cache backend SugarCachesMash
+Wed Jan 30 12:35:40 2013 [64030][-none-][DEBUG] Found cache backend SugarCacheAPC
+Wed Jan 30 12:35:40 2013 [64030][-none-][DEBUG] Using cache backend SugarCacheAPC, since 940 is less than 1000
+Wed Jan 30 12:35:40 2013 [64030][-none-][DEBUG] Found cache backend SugarCacheFile
+Wed Jan 30 12:35:40 2013 [64030][-none-][DEBUG] Found cache backend SugarCacheWincache
+Wed Jan 30 12:35:40 2013 [64030][-none-][DEBUG] Found cache backend SugarCacheMemory
+Wed Jan 30 12:35:40 2013 [64030][-none-][DEBUG] rebuilding cache for Users
+Wed Jan 30 12:35:40 2013 [64030][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Users' AND  deleted = 0
+Wed Jan 30 12:35:40 2013 [64030][-none-][INFO] Query Execution Time:0.00030112266540527
+Wed Jan 30 12:35:40 2013 [64030][-none-][DEBUG] rebuilding cache for Employees
+Wed Jan 30 12:35:40 2013 [64030][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Employees' AND  deleted = 0
+Wed Jan 30 12:35:40 2013 [64030][-none-][INFO] Query Execution Time:0.00024294853210449
+Wed Jan 30 12:35:41 2013 [64030][-none-][DEBUG] rebuilding cache for EmailAddresses
+Wed Jan 30 12:35:41 2013 [64030][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='EmailAddresses' AND  deleted = 0
+Wed Jan 30 12:35:41 2013 [64030][-none-][INFO] Query Execution Time:0.00024509429931641
+Wed Jan 30 12:35:41 2013 [64030][-none-][DEBUG] rebuilding cache for UserPreferences
+Wed Jan 30 12:35:41 2013 [64030][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='UserPreferences' AND  deleted = 0
+Wed Jan 30 12:35:41 2013 [64030][-none-][INFO] Query Execution Time:0.00024104118347168
+Wed Jan 30 12:35:41 2013 [64030][-none-][DEBUG] rebuilding cache for Administration
+Wed Jan 30 12:35:41 2013 [64030][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Administration' AND  deleted = 0
+Wed Jan 30 12:35:41 2013 [64030][-none-][INFO] Query Execution Time:0.00023603439331055
+Wed Jan 30 12:35:41 2013 [64030][-none-][DEBUG] Hook called: ::after_entry_point
+Wed Jan 30 12:35:41 2013 [64030][-none-][DEBUG] Including Ext hook file for custom/application
+Wed Jan 30 12:35:41 2013 [64030][-none-][DEBUG] Hook called: ::after_session_start
+Wed Jan 30 12:35:41 2013 [64030][-none-][DEBUG] We have an authenticated user id: 8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4
+Wed Jan 30 12:35:41 2013 [64030][-none-][DEBUG] Hook called: Users::before_retrieve
+Wed Jan 30 12:35:41 2013 [64030][-none-][DEBUG] Including module specific hook file for custom/modules/Users
+Wed Jan 30 12:35:41 2013 [64030][-none-][DEBUG] Retrieve User : SELECT users.* FROM users  WHERE users.id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4' AND users.deleted=0
+Wed Jan 30 12:35:41 2013 [64030][-none-][DEBUG] Limit Query:SELECT users.* FROM users  WHERE users.id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4' AND users.deleted=0 Start: 0 count: 1
+Wed Jan 30 12:35:41 2013 [64030][-none-][INFO] Query:SELECT users.* FROM users  WHERE users.id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4' AND users.deleted=0 LIMIT 0,1
+Wed Jan 30 12:35:41 2013 [64030][-none-][INFO] Query Execution Time:0.00034594535827637
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT u1.first_name, u1.last_name from users  u1, users  u2 where u1.id = u2.reports_to_id AND u2.id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4' and u1.deleted=0
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00024700164794922
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] SugarBean[User].load_relationships, Loading relationship (reports_to_link).
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT ea.email_address, ea.email_address_caps, ea.invalid_email, ea.opt_out, ea.date_created, ea.date_modified,
+                ear.id, ear.email_address_id, ear.bean_id, ear.bean_module, ear.primary_address, ear.reply_to_address, ear.deleted
+                FROM email_addresses ea LEFT JOIN email_addr_bean_rel ear ON ea.id = ear.email_address_id
+                WHERE ear.bean_module = 'Users'
+                AND ear.bean_id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4'
+                AND ear.deleted = 0
+                ORDER BY ear.reply_to_address, ear.primary_address DESC
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00050497055053711
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: Users::after_retrieve
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Current user is: alba.naranjo
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Current user is: alba.naranjo
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] setting cookie ck_login_id_20 to 8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] setting cookie ck_login_language_20 to es_es
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] current_language is: es_es
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] rebuilding cache for Notes
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Notes' AND  deleted = 0
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00023508071899414
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: Notes::before_retrieve
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Including module specific hook file for custom/modules/Notes
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Retrieve Note : SELECT notes.* FROM notes  WHERE notes.id = 'c5e87ce6-1596-222f-12e3-510959e3e202' AND notes.deleted=0
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Limit Query:SELECT notes.* FROM notes  WHERE notes.id = 'c5e87ce6-1596-222f-12e3-510959e3e202' AND notes.deleted=0 Start: 0 count: 1
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT notes.* FROM notes  WHERE notes.id = 'c5e87ce6-1596-222f-12e3-510959e3e202' AND notes.deleted=0 LIMIT 0,1
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.0002601146697998
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] rebuilding cache for Cases
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Cases' AND  deleted = 0
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00021910667419434
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] rebuilding cache for Contacts
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Contacts' AND  deleted = 0
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00021696090698242
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] SugarBean[Note].load_relationships, Loading relationship (contact).
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: Notes::after_retrieve
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Performing pre_action
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] SugarController:: performing pre_save.
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEPRECATED] SugarBean.php: unformat_all_fields() is deprecated
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Performing action: action_save MODULE: Notes
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] PERFORMING NOTES SAVE
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEPRECATED] Formatting correction: Notes->date_entered had formatting automatically corrected. This will be removed in the future, please upgrade your external code
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEPRECATED] Formatting correction: Notes->date_modified had formatting automatically corrected. This will be removed in the future, please upgrade your external code
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT date_modified FROM notes WHERE id='c5e87ce6-1596-222f-12e3-510959e3e202' AND modified_user_id != '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4'
+            	AND (modified_user_id != '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4' OR date_modified > '2013-01-30 17:33:21')
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00025391578674316
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: Notes::before_save
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Creating new instance of hook class functions without parameters
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEPRECATED] SugarBean.php: preprocess_fields_on_save() is deprecated
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:UPDATE notes
+					SET assigned_user_id='8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4',consecutivo_automatico='10',date_modified='2013-01-30 17:35:40',modified_user_id='8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4',created_by='8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4',name='solicitud permiso ministerio de trabajo',file_mime_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document',filename='SOLICITUD AUTORIZACION PARA TRABAJO HORAS EXTRAS.docx',parent_type='Tasks',parent_id='',contact_id='',portal_flag=0,embed_flag=0,description='AUTORIZACION ANTE EL MINISTERIO DEL TRABAJO PARA TRABAJAR HORAS EXTRAS'
+					 WHERE  notes.id = 'c5e87ce6-1596-222f-12e3-510959e3e202' AND deleted=0
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00042390823364258
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: Notes::after_save
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][ERROR] Unable to load custom logic file: include/SugarSearchEngine/SugarSearchEngineQueueManager.php
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Performing post_action
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: ::server_round_trip
+Wed Jan 30 12:35:41 2013 [64030][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Calling MySQLi::disconnect()
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] current_language is: es_es
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] Found cache backend SugarCacheZend
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] Found cache backend SugarCacheMemcache
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] Found cache backend SugarCacheMemcached
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] Found cache backend SugarCacheRedis
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] Found cache backend SugarCachesMash
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] Found cache backend SugarCacheAPC
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] Using cache backend SugarCacheAPC, since 940 is less than 1000
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] Found cache backend SugarCacheFile
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] Found cache backend SugarCacheWincache
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] Found cache backend SugarCacheMemory
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] rebuilding cache for Users
+Wed Jan 30 12:35:41 2013 [64031][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Users' AND  deleted = 0
+Wed Jan 30 12:35:41 2013 [64031][-none-][INFO] Query Execution Time:0.0001990795135498
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] rebuilding cache for Employees
+Wed Jan 30 12:35:41 2013 [64031][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Employees' AND  deleted = 0
+Wed Jan 30 12:35:41 2013 [64031][-none-][INFO] Query Execution Time:0.00017404556274414
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] rebuilding cache for EmailAddresses
+Wed Jan 30 12:35:41 2013 [64031][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='EmailAddresses' AND  deleted = 0
+Wed Jan 30 12:35:41 2013 [64031][-none-][INFO] Query Execution Time:0.00014400482177734
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] rebuilding cache for UserPreferences
+Wed Jan 30 12:35:41 2013 [64031][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='UserPreferences' AND  deleted = 0
+Wed Jan 30 12:35:41 2013 [64031][-none-][INFO] Query Execution Time:0.0001220703125
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] rebuilding cache for Administration
+Wed Jan 30 12:35:41 2013 [64031][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Administration' AND  deleted = 0
+Wed Jan 30 12:35:41 2013 [64031][-none-][INFO] Query Execution Time:0.00011801719665527
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] Hook called: ::after_entry_point
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] Including Ext hook file for custom/application
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] Hook called: ::after_session_start
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] We have an authenticated user id: 8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] Hook called: Users::before_retrieve
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] Including module specific hook file for custom/modules/Users
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] Retrieve User : SELECT users.* FROM users  WHERE users.id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4' AND users.deleted=0
+Wed Jan 30 12:35:41 2013 [64031][-none-][DEBUG] Limit Query:SELECT users.* FROM users  WHERE users.id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4' AND users.deleted=0 Start: 0 count: 1
+Wed Jan 30 12:35:41 2013 [64031][-none-][INFO] Query:SELECT users.* FROM users  WHERE users.id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4' AND users.deleted=0 LIMIT 0,1
+Wed Jan 30 12:35:41 2013 [64031][-none-][INFO] Query Execution Time:0.00019502639770508
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT u1.first_name, u1.last_name from users  u1, users  u2 where u1.id = u2.reports_to_id AND u2.id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4' and u1.deleted=0
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00012803077697754
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] SugarBean[User].load_relationships, Loading relationship (reports_to_link).
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT ea.email_address, ea.email_address_caps, ea.invalid_email, ea.opt_out, ea.date_created, ea.date_modified,
+                ear.id, ear.email_address_id, ear.bean_id, ear.bean_module, ear.primary_address, ear.reply_to_address, ear.deleted
+                FROM email_addresses ea LEFT JOIN email_addr_bean_rel ear ON ea.id = ear.email_address_id
+                WHERE ear.bean_module = 'Users'
+                AND ear.bean_id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4'
+                AND ear.deleted = 0
+                ORDER BY ear.reply_to_address, ear.primary_address DESC
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00034499168395996
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: Users::after_retrieve
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Current user is: alba.naranjo
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Current user is: alba.naranjo
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] setting cookie ck_login_id_20 to 8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] setting cookie ck_login_language_20 to es_es
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] current_language is: es_es
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] rebuilding cache for Notes
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Notes' AND  deleted = 0
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00018620491027832
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: Notes::before_retrieve
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Including module specific hook file for custom/modules/Notes
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Retrieve Note : SELECT notes.* FROM notes  WHERE notes.id = 'c5e87ce6-1596-222f-12e3-510959e3e202' AND notes.deleted=0
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Limit Query:SELECT notes.* FROM notes  WHERE notes.id = 'c5e87ce6-1596-222f-12e3-510959e3e202' AND notes.deleted=0 Start: 0 count: 1
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT notes.* FROM notes  WHERE notes.id = 'c5e87ce6-1596-222f-12e3-510959e3e202' AND notes.deleted=0 LIMIT 0,1
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00018405914306641
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] rebuilding cache for Tasks
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Tasks' AND  deleted = 0
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00016999244689941
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] rebuilding cache for Contacts
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Contacts' AND  deleted = 0
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.0001220703125
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] SugarBean[Note].load_relationships, Loading relationship (contact).
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: Notes::after_retrieve
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Using Action View Map:detail
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:INSERT INTO tracker (monitor_id,user_id,module_name,item_id,item_summary,date_modified,action,session_id,visible ) VALUES ( '2f52de95-90a8-c021-e8b8-51095974746d','8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4','Notes','c5e87ce6-1596-222f-12e3-510959e3e202','solicitud permiso ministerio de trabajo','2013-01-30 17:35:41','detailview','nr5898cvoc3em1qq97hc7js4o6','1')
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00021100044250488
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] rebuilding cache for Trackers
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Trackers' AND  deleted = 0
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00019001960754395
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Limit Query:SELECT item_id, item_summary, module_name, id FROM tracker WHERE id = (SELECT MAX(id) as id FROM tracker WHERE user_id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4' AND deleted = 0 AND visible = 1) Start: 0 count: 50
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT item_id, item_summary, module_name, id FROM tracker WHERE id = (SELECT MAX(id) as id FROM tracker WHERE user_id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4' AND deleted = 0 AND visible = 1) LIMIT 0,50
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00034189224243164
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:DELETE FROM tracker where id = '14790'
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00015020370483398
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Tracker: retrieving 10 items
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][WARN] Image dashboard.png not found
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] metadatafile=custom/modules/Notes/metadata/detailviewdefs.php
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: Notes::after_ui_frame
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT meetings.id, name,reminder_time, description,location, date_start, assigned_user_id
+			FROM meetings LEFT JOIN meetings_users ON meetings.id = meetings_users.meeting_id
+			WHERE meetings_users.user_id ='8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4'
+				AND meetings_users.accept_status != 'decline'
+				AND meetings.reminder_time != -1
+				AND meetings_users.deleted != 1
+				AND meetings.status != 'Held'
+			    AND date_start >= '2013-01-30 17:35:41'
+			    AND date_start <= '2013-01-30 18:35:41'
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00031185150146484
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:
+				SELECT calls.id, name, reminder_time, description, date_start
+				FROM calls LEFT JOIN calls_users ON calls.id = calls_users.call_id
+				WHERE calls_users.user_id ='8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4'
+				    AND calls_users.accept_status != 'decline'
+				    AND calls.reminder_time != -1
+					AND calls_users.deleted != 1
+					AND calls.status != 'Held'
+				    AND date_start >= '2013-01-30 17:35:41'
+				    AND date_start <= '2013-01-30 18:35:41'
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00019693374633789
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: ::after_ui_footer
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: ::server_round_trip
+Wed Jan 30 12:35:41 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Calling MySQLi::disconnect()
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] current_language is: es_es
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] Found cache backend SugarCacheZend
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] Found cache backend SugarCacheMemcache
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] Found cache backend SugarCacheMemcached
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] Found cache backend SugarCacheRedis
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] Found cache backend SugarCachesMash
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] Found cache backend SugarCacheAPC
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] Using cache backend SugarCacheAPC, since 940 is less than 1000
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] Found cache backend SugarCacheFile
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] Found cache backend SugarCacheWincache
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] Found cache backend SugarCacheMemory
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] rebuilding cache for Users
+Wed Jan 30 12:35:42 2013 [64031][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Users' AND  deleted = 0
+Wed Jan 30 12:35:42 2013 [64031][-none-][INFO] Query Execution Time:0.00035405158996582
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] rebuilding cache for Employees
+Wed Jan 30 12:35:42 2013 [64031][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Employees' AND  deleted = 0
+Wed Jan 30 12:35:42 2013 [64031][-none-][INFO] Query Execution Time:0.00029587745666504
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] rebuilding cache for EmailAddresses
+Wed Jan 30 12:35:42 2013 [64031][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='EmailAddresses' AND  deleted = 0
+Wed Jan 30 12:35:42 2013 [64031][-none-][INFO] Query Execution Time:0.00030016899108887
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] rebuilding cache for UserPreferences
+Wed Jan 30 12:35:42 2013 [64031][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='UserPreferences' AND  deleted = 0
+Wed Jan 30 12:35:42 2013 [64031][-none-][INFO] Query Execution Time:0.0002739429473877
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] rebuilding cache for Administration
+Wed Jan 30 12:35:42 2013 [64031][-none-][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Administration' AND  deleted = 0
+Wed Jan 30 12:35:42 2013 [64031][-none-][INFO] Query Execution Time:0.00025010108947754
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] Hook called: ::after_entry_point
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] Including Ext hook file for custom/application
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] Hook called: ::after_session_start
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] We have an authenticated user id: 8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] Hook called: Users::before_retrieve
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] Including module specific hook file for custom/modules/Users
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] Retrieve User : SELECT users.* FROM users  WHERE users.id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4' AND users.deleted=0
+Wed Jan 30 12:35:42 2013 [64031][-none-][DEBUG] Limit Query:SELECT users.* FROM users  WHERE users.id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4' AND users.deleted=0 Start: 0 count: 1
+Wed Jan 30 12:35:42 2013 [64031][-none-][INFO] Query:SELECT users.* FROM users  WHERE users.id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4' AND users.deleted=0 LIMIT 0,1
+Wed Jan 30 12:35:42 2013 [64031][-none-][INFO] Query Execution Time:0.00040888786315918
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT u1.first_name, u1.last_name from users  u1, users  u2 where u1.id = u2.reports_to_id AND u2.id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4' and u1.deleted=0
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00029611587524414
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] SugarBean[User].load_relationships, Loading relationship (reports_to_link).
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT ea.email_address, ea.email_address_caps, ea.invalid_email, ea.opt_out, ea.date_created, ea.date_modified,
+                ear.id, ear.email_address_id, ear.bean_id, ear.bean_module, ear.primary_address, ear.reply_to_address, ear.deleted
+                FROM email_addresses ea LEFT JOIN email_addr_bean_rel ear ON ea.id = ear.email_address_id
+                WHERE ear.bean_module = 'Users'
+                AND ear.bean_id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4'
+                AND ear.deleted = 0
+                ORDER BY ear.reply_to_address, ear.primary_address DESC
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00052499771118164
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: Users::after_retrieve
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Current user is: alba.naranjo
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Current user is: alba.naranjo
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] setting cookie ck_login_id_20 to 8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] setting cookie ck_login_language_20 to es_es
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] current_language is: es_es
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] rebuilding cache for Notes
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Notes' AND  deleted = 0
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.0002739429473877
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: Notes::before_retrieve
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Including module specific hook file for custom/modules/Notes
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Retrieve Note : SELECT notes.* FROM notes  WHERE notes.id = 'd9cd191f-555c-b11b-21a7-50fd56e740dc' AND notes.deleted=0
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Limit Query:SELECT notes.* FROM notes  WHERE notes.id = 'd9cd191f-555c-b11b-21a7-50fd56e740dc' AND notes.deleted=0 Start: 0 count: 1
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT notes.* FROM notes  WHERE notes.id = 'd9cd191f-555c-b11b-21a7-50fd56e740dc' AND notes.deleted=0 LIMIT 0,1
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00027799606323242
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] rebuilding cache for Tasks
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Tasks' AND  deleted = 0
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00025296211242676
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT id ,tasks.name as parent_name , tasks.assigned_user_id owner FROM tasks WHERE deleted=0 AND id='97b5b121-153d-7a00-a26c-50fd4f5311aa'
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00025081634521484
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] rebuilding cache for Contacts
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Contacts' AND  deleted = 0
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00025200843811035
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT id ,LTRIM(RTRIM(CONCAT(IFNULL(contacts.first_name,''),' ',IFNULL(contacts.last_name,'')))) as contact_name ,contacts.phone_work as contact_phone , contacts.assigned_user_id owner FROM contacts WHERE deleted=0 AND id='9f462078-3194-45e2-75f8-50f870f872bd'
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00029397010803223
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Limit Query:SELECT ea.email_address FROM email_addresses ea
+                LEFT JOIN email_addr_bean_rel ear ON ea.id = ear.email_address_id
+                WHERE ear.bean_module = 'Contacts'
+                AND ear.bean_id = '9f462078-3194-45e2-75f8-50f870f872bd'
+                AND ear.deleted = 0
+                AND ea.invalid_email = 0
+                ORDER BY ear.primary_address DESC Start: 0 count: 1
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT ea.email_address FROM email_addresses ea
+                LEFT JOIN email_addr_bean_rel ear ON ea.id = ear.email_address_id
+                WHERE ear.bean_module = 'Contacts'
+                AND ear.bean_id = '9f462078-3194-45e2-75f8-50f870f872bd'
+                AND ear.deleted = 0
+                AND ea.invalid_email = 0
+                ORDER BY ear.primary_address DESC LIMIT 0,1
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00039005279541016
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] rebuilding cache for Contacts
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Contacts' AND  deleted = 0
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00023412704467773
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: Contacts::before_retrieve
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Including module specific hook file for custom/modules/Contacts
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Retrieve Contact : SELECT contacts.* FROM contacts  WHERE contacts.id = '9f462078-3194-45e2-75f8-50f870f872bd' AND contacts.deleted=0
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Limit Query:SELECT contacts.* FROM contacts  WHERE contacts.id = '9f462078-3194-45e2-75f8-50f870f872bd' AND contacts.deleted=0 Start: 0 count: 1
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT contacts.* FROM contacts  WHERE contacts.id = '9f462078-3194-45e2-75f8-50f870f872bd' AND contacts.deleted=0 LIMIT 0,1
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00036501884460449
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT acc.id, acc.name, con_reports_to.first_name, con_reports_to.last_name
+		from contacts
+		left join accounts_contacts a_c on a_c.contact_id = '9f462078-3194-45e2-75f8-50f870f872bd' and a_c.deleted=0
+		left join accounts acc on a_c.account_id = acc.id and acc.deleted=0
+		left join contacts con_reports_to on con_reports_to.id = contacts.reports_to_id
+		where contacts.id = '9f462078-3194-45e2-75f8-50f870f872bd' ORDER BY a_c.date_modified DESC
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.0007169246673584
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] SugarBean[Contact].load_relationships, Loading relationship (user_sync).
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT user_id id FROM contacts_users WHERE contacts_users.contact_id = '9f462078-3194-45e2-75f8-50f870f872bd' AND contacts_users.deleted=0
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00020790100097656
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] SugarBean[Contact].load_relationships, Loading relationship (reports_to_link).
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] SugarBean[Contact].load_relationships, Loading relationship (campaign_contacts).
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT ea.email_address, ea.email_address_caps, ea.invalid_email, ea.opt_out, ea.date_created, ea.date_modified,
+                ear.id, ear.email_address_id, ear.bean_id, ear.bean_module, ear.primary_address, ear.reply_to_address, ear.deleted
+                FROM email_addresses ea LEFT JOIN email_addr_bean_rel ear ON ea.id = ear.email_address_id
+                WHERE ear.bean_module = 'Contacts'
+                AND ear.bean_id = '9f462078-3194-45e2-75f8-50f870f872bd'
+                AND ear.deleted = 0
+                ORDER BY ear.reply_to_address, ear.primary_address DESC
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00040102005004883
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: Contacts::after_retrieve
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: Notes::after_retrieve
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Performing action: action_editview MODULE: Notes
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:INSERT INTO tracker (monitor_id,user_id,module_name,item_id,item_summary,date_modified,action,session_id,visible ) VALUES ( '2312e0c6-d817-01a8-fa73-510959a4c5cf','8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4','Notes','d9cd191f-555c-b11b-21a7-50fd56e740dc','Poliza Colectiva de Vida','2013-01-30 17:35:42','editview','nr5898cvoc3em1qq97hc7js4o6','1')
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00036215782165527
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] rebuilding cache for Trackers
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT * FROM fields_meta_data WHERE  custom_module='Trackers' AND  deleted = 0
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00025486946105957
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Limit Query:SELECT item_id, item_summary, module_name, id FROM tracker WHERE id = (SELECT MAX(id) as id FROM tracker WHERE user_id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4' AND deleted = 0 AND visible = 1) Start: 0 count: 50
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT item_id, item_summary, module_name, id FROM tracker WHERE id = (SELECT MAX(id) as id FROM tracker WHERE user_id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4' AND deleted = 0 AND visible = 1) LIMIT 0,50
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.0005800724029541
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:DELETE FROM tracker where id = '10004'
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00030899047851562
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Tracker: retrieving 10 items
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][WARN] Image dashboard.png not found
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] metadatafile=modules/Notes/metadata/editviewdefs.php
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] SUGARVCR is recording more records
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Limit Query: SELECT  notes.id , notes.name  , LTRIM(RTRIM(CONCAT(IFNULL(contacts.first_name,''),' ',IFNULL(contacts.last_name,'')))) contact_name , contacts.assigned_user_id contact_name_owner  , 'Contacts' contact_name_mod, notes.contact_id , notes.parent_id , notes.parent_type , notes.filename  , LTRIM(RTRIM(CONCAT(IFNULL(jt1.first_name,''),' ',IFNULL(jt1.last_name,'')))) created_by_name , jt1.created_by created_by_name_owner  , 'Users' created_by_name_mod, notes.created_by , notes.date_entered , notes.assigned_user_id  FROM notes   LEFT JOIN  contacts contacts ON notes.contact_id=contacts.id AND contacts.deleted=0
+
+ AND contacts.deleted=0  LEFT JOIN  users jt1 ON notes.created_by=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0 where ((notes.assigned_user_id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4')) AND notes.deleted=0 ORDER BY notes.date_entered DESC Start: 0 count: 52
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query: SELECT  notes.id , notes.name  , LTRIM(RTRIM(CONCAT(IFNULL(contacts.first_name,''),' ',IFNULL(contacts.last_name,'')))) contact_name , contacts.assigned_user_id contact_name_owner  , 'Contacts' contact_name_mod, notes.contact_id , notes.parent_id , notes.parent_type , notes.filename  , LTRIM(RTRIM(CONCAT(IFNULL(jt1.first_name,''),' ',IFNULL(jt1.last_name,'')))) created_by_name , jt1.created_by created_by_name_owner  , 'Users' created_by_name_mod, notes.created_by , notes.date_entered , notes.assigned_user_id  FROM notes   LEFT JOIN  contacts contacts ON notes.contact_id=contacts.id AND contacts.deleted=0
+
+ AND contacts.deleted=0  LEFT JOIN  users jt1 ON notes.created_by=jt1.id AND jt1.deleted=0
+
+ AND jt1.deleted=0 where ((notes.assigned_user_id = '8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4')) AND notes.deleted=0 ORDER BY notes.date_entered DESC LIMIT 0,52
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00075006484985352
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: Notes::after_ui_frame
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:SELECT meetings.id, name,reminder_time, description,location, date_start, assigned_user_id
+			FROM meetings LEFT JOIN meetings_users ON meetings.id = meetings_users.meeting_id
+			WHERE meetings_users.user_id ='8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4'
+				AND meetings_users.accept_status != 'decline'
+				AND meetings.reminder_time != -1
+				AND meetings_users.deleted != 1
+				AND meetings.status != 'Held'
+			    AND date_start >= '2013-01-30 17:35:42'
+			    AND date_start <= '2013-01-30 18:35:42'
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00048398971557617
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query:
+				SELECT calls.id, name, reminder_time, description, date_start
+				FROM calls LEFT JOIN calls_users ON calls.id = calls_users.call_id
+				WHERE calls_users.user_id ='8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4'
+				    AND calls_users.accept_status != 'decline'
+				    AND calls.reminder_time != -1
+					AND calls_users.deleted != 1
+					AND calls.status != 'Held'
+				    AND date_start >= '2013-01-30 17:35:42'
+				    AND date_start <= '2013-01-30 18:35:42'
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][INFO] Query Execution Time:0.00036191940307617
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: ::after_ui_footer
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Hook called: ::server_round_trip
+Wed Jan 30 12:35:42 2013 [64031][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][DEBUG] Calling MySQLi::disconnect()

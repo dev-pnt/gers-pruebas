@@ -1,0 +1,520 @@
+<?php
+$viewdefs ['Opportunities'] = 
+array (
+  'EditView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'form' => 
+      array (
+        'buttons' => 
+        array (
+          0 => 'SAVE',
+          1 => 'CANCEL',
+        ),
+      ),
+      'useTabs' => true,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL3' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL16' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL7' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL8' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL9' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL10' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'collapsed',
+        ),
+        'LBL_EDITVIEW_PANEL11' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL12' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL13' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL14' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL15' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+    ),
+    0 => 
+    array (
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'javascript' => '{$PROBABILITY_SCRIPT}',
+      'useTabs' => true,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL1' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'name',
+          ),
+          1 => 'account_name',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'consecutivo_interno',
+            'label' => 'LBL_CONSECUTIVO_INTERNO',
+          ),
+          1 => 
+          array (
+            'name' => 'consecutivo_cliente',
+            'label' => 'LBL_CONSECUTIVO_CLIENTE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'encargado_oferta',
+            'label' => 'LBL_ENCARGADO_OFERTA',
+          ),
+          1 => 
+          array (
+            'name' => 'departamento_encargado',
+            'label' => 'LBL_DEPARTAMENTO_ENCARGADO',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'date_created',
+            'comment' => 'Expected or actual date the oppportunity was created',
+            'label' => 'LBL_DATE_CREATED',
+          ),
+          1 => 
+          array (
+            'name' => 'date_closed',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'date_request',
+            'comment' => 'Expected or actual date the oppportunity was requested',
+            'label' => 'LBL_DATE_REQUEST',
+          ),
+          1 => 
+          array (
+            'name' => 'date_award',
+            'comment' => 'Expected or actual date the oppportunity was awarded',
+            'label' => 'LBL_DATE_AWARD',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'etapas',
+            'label' => 'LBL_ETAPAS',
+          ),
+          1 => 
+          array (
+            'name' => 'amount',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 'campaign_name',
+          1 => 'lead_source',
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'razones_perdida',
+            'label' => 'LBL_RAZONES_PERDIDA',
+          ),
+          1 => 
+          array (
+            'name' => 'probabilidad',
+            'label' => 'LBL_PROBABILIDAD',
+          ),
+        ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'accounts_opportunities_1_name',
+          ),
+          1 => 
+          array (
+            'name' => 'accounts_opportunities_1_name',
+          ),
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'opportunities_project_1_name',
+          ),
+        ),
+      ),
+      'lbl_editview_panel3' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'linea',
+            'label' => 'LBL_LINEA',
+          ),
+          1 => 
+          array (
+            'name' => 'referencias',
+            'label' => 'LBL_REFERENCIAS',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 'description',
+        ),
+      ),
+      'lbl_editview_panel16' => 
+      array (
+        0 => 
+        array (
+          0 => '',
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel7' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cantidad_viaticos',
+            'label' => 'LBL_CANTIDAD_VIATICOS',
+          ),
+          1 => 
+          array (
+            'name' => 'personas_viaticos',
+            'label' => 'LBL_PERSONAS_VIATICOS',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'valor_viaticos',
+            'label' => 'LBL_VALOR_VIATICOS',
+          ),
+          1 => 
+          array (
+            'name' => 'subtotal_viaticos',
+            'label' => 'LBL_SUBTOTAL_VIATICOS',
+          ),
+        ),
+      ),
+      'lbl_editview_panel8' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cantidad_transporte',
+            'label' => 'LBL_CANTIDAD_TRANSPORTE',
+          ),
+          1 => 
+          array (
+            'name' => 'personas_transporte',
+            'label' => 'LBL_PERSONAS_TRANSPORTE',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'valor_transporte',
+            'label' => 'LBL_VALOR_TRANSPORTE',
+          ),
+          1 => 
+          array (
+            'name' => 'subtotal_transporte',
+            'label' => 'LBL_SUBTOTAL_TRANSPORTE',
+          ),
+        ),
+      ),
+      'lbl_editview_panel9' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cantidad_documentos',
+            'label' => 'LBL_CANTIDAD_DOCUMENTOS',
+          ),
+          1 => 
+          array (
+            'name' => 'personas_documentos',
+            'label' => 'LBL_PERSONAS_DOCUMENTOS',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'valor_documentos',
+            'label' => 'LBL_VALOR_DOCUMENTOS',
+          ),
+          1 => 
+          array (
+            'name' => 'subtotal_documentos',
+            'label' => 'LBL_SUBTOTAL_DOCUMENTOS',
+          ),
+        ),
+      ),
+      'lbl_editview_panel10' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cantidad_polizas',
+            'label' => 'LBL_CANTIDAD_POLIZAS',
+          ),
+          1 => 
+          array (
+            'name' => 'personas_polizas',
+            'label' => 'LBL_PERSONAS_POLIZAS',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'valor_polizas',
+            'label' => 'LBL_VALOR_POLIZAS',
+          ),
+          1 => 
+          array (
+            'name' => 'subtotal_polizas',
+            'label' => 'LBL_SUBTOTAL_POLIZAS',
+          ),
+        ),
+      ),
+      'lbl_editview_panel11' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cantidad_viaticos_e',
+            'label' => 'LBL_CANTIDAD_VIATICOS_E',
+          ),
+          1 => 
+          array (
+            'name' => 'personas_viaticos_e',
+            'label' => 'LBL_PERSONAS_VIATICOS_E',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'valor_viaticos_e',
+            'label' => 'LBL_VALOR_VIATICOS_E',
+          ),
+          1 => 
+          array (
+            'name' => 'subtotal_viaticos_e',
+            'label' => 'LBL_SUBTOTAL_VIATICOS_E',
+          ),
+        ),
+      ),
+      'lbl_editview_panel12' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cantidad_transporte_e',
+            'label' => 'LBL_CANTIDAD_TRANSPORTE_E',
+          ),
+          1 => 
+          array (
+            'name' => 'personas_transporte_e',
+            'label' => 'LBL_PERSONAS_TRANSPORTE_E',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'valor_transporte_e',
+            'label' => 'LBL_VALOR_TRANSPORTE_E',
+          ),
+          1 => 
+          array (
+            'name' => 'subtotal_transporte_e',
+            'label' => 'LBL_SUBTOTAL_TRANSPORTE_E',
+          ),
+        ),
+      ),
+      'lbl_editview_panel13' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cantidad_topografia',
+            'label' => 'LBL_CANTIDAD_TOPOGRAFIA',
+          ),
+          1 => 
+          array (
+            'name' => 'porcentaje_topografia',
+            'label' => 'LBL_PORCENTAJE_TOPOGRAFIA',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'valor_topografia',
+            'label' => 'LBL_VALOR_TOPOGRAFIA',
+          ),
+          1 => 
+          array (
+            'name' => 'subtotal_topografia',
+            'label' => 'LBL_SUBTOTAL_TOPOGRAFIA',
+          ),
+        ),
+      ),
+      'lbl_editview_panel14' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cantidad_forestal',
+            'label' => 'LBL_CANTIDAD_FORESTAL',
+          ),
+          1 => 
+          array (
+            'name' => 'porcentaje_forestal',
+            'label' => 'LBL_PORCENTAJE_FORESTAL',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'valor_forestal',
+            'label' => 'LBL_VALOR_FORESTAL',
+          ),
+          1 => 
+          array (
+            'name' => 'subtotal_forestal',
+            'label' => 'LBL_SUBTOTAL_FORESTAL',
+          ),
+        ),
+      ),
+      'lbl_editview_panel15' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cantidad_suelos',
+            'label' => 'LBL_CANTIDAD_SUELOS',
+          ),
+          1 => 
+          array (
+            'name' => 'porcentaje_suelos',
+            'label' => 'LBL_PORCENTAJE_SUELOS',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'valor_suelos',
+            'label' => 'LBL_VALOR_SUELOS',
+          ),
+          1 => 
+          array (
+            'name' => 'subtotal_suelos',
+            'label' => 'LBL_SUBTOTAL_SUELOS',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+?>

@@ -1,0 +1,76 @@
+<?php
+$module_name = 'af_costos_directos';
+$viewdefs [$module_name] = 
+array (
+  'QuickCreate' => 
+  array (
+    'templateMeta' => 
+    array (
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'tipo_costo',
+            'label' => 'LBL_TIPO_COSTO',
+          ),
+          1 => 
+          array (
+            'name' => 'categoria',
+            'label' => 'LBL_CATEGORIA',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 'name',
+          1 => 
+          array (
+            'name' => 'cantidad',
+            'label' => 'LBL_CANTIDAD',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'numero_personas',
+            'label' => 'LBL_NUMERO_PERSONAS',
+          ),
+          1 => 
+          array (
+            'name' => 'valor',
+            'label' => 'LBL_VALOR',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+?>

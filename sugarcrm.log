@@ -1,0 +1,791 @@
+Thu Jan 31 15:50:08 2013 [10918][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL] CIF: 8257452 ## FACTURADO: 28000000 ## VALOR FACTURA: 50000000 ## PORCENTAJE: 0.56 ## VALOR A OPERAR: 4624173.1200
+Thu Jan 31 15:50:08 2013 [10918][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL] Array
+(
+    [pvstrDatos] => <Importar><NombreConexion>prueba</NombreConexion><IdCia>1</IdCia><Usuario>unoee</Usuario><Clave>unoee</Clave><Datos><Linea>000000100000001001</Linea><Linea>0000002035000010012001CPR0000000120130130890320064      0003000                                                                                                                                                                                                                                                               </Linea><Linea>000000303510002001001CPR000000016155500501          890320064      001T7-22               100199         a         +000000004624173.1200+000000000000000.0000+000000000000000.0000+000000000000000.0000+000000000000000.0000  00000000                                                                                                                                                                                                                                                               </Linea><Linea>000000403510002001001CPR00000001142005              890320064      001T7-22               100199         a         +000000000000000.0000+000000004624173.1200+000000000000000.0000+000000000000000.0000+000000000000000.0000  00000000                                                                                                                                                                                                                                                               </Linea><Linea>000000599990001001</Linea></Datos></Importar>
+    [printTipoError] => 1
+)
+
+Thu Jan 31 15:50:08 2013 [10918][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL] Array
+(
+    [pvstrDatos] => <Importar><NombreConexion>prueba</NombreConexion><IdCia>1</IdCia><Usuario>unoee</Usuario><Clave>unoee</Clave><Datos><Linea>000000100000001001</Linea><Linea>0000002035000010012001CPR0000000120130130890320064      0003000                                                                                                                                                                                                                                                               </Linea><Linea>000000303510002001001CPR000000016155500501          890320064      001T7-22               100199         a         +000000004624173.1200+000000000000000.0000+000000000000000.0000+000000000000000.0000+000000000000000.0000  00000000                                                                                                                                                                                                                                                               </Linea><Linea>000000403510002001001CPR00000001142005              890320064      001T7-22               100199         a         +000000000000000.0000+000000004624173.1200+000000000000000.0000+000000000000000.0000+000000000000000.0000  00000000                                                                                                                                                                                                                                                               </Linea><Linea>000000599990001001</Linea></Datos></Importar>
+    [printTipoError] => 1
+)
+
+Thu Jan 31 15:51:20 2013 [10979][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL] CIF: 8257452 ## FACTURADO: 28000000 ## VALOR FACTURA: 50000000 ## PORCENTAJE: 0.56 ## VALOR A OPERAR: 4624173.1200
+Thu Jan 31 15:51:20 2013 [10979][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL] Array
+(
+    [pvstrDatos] => <Importar><NombreConexion>prueba</NombreConexion><IdCia>1</IdCia><Usuario>unoee</Usuario><Clave>unoee</Clave><Datos><Linea>000000100000001001</Linea><Linea>0000002035000010012001CPR0000000120130130890320064      0003000                                                                                                                                                                                                                                                               </Linea><Linea>000000303510002001001CPR000000016155500501          890320064      001T7-22               100199         a         +000000004624173.1200+000000000000000.0000+000000000000000.0000+000000000000000.0000+000000000000000.0000  00000000                                                                                                                                                                                                                                                               </Linea><Linea>000000403510002001001CPR00000001142005              890320064      001T7-22               100199         a         +000000000000000.0000+000000004624173.1200+000000000000000.0000+000000000000000.0000+000000000000000.0000  00000000                                                                                                                                                                                                                                                               </Linea><Linea>000000599990001001</Linea></Datos></Importar>
+    [printTipoError] => 1
+)
+
+Thu Jan 31 15:51:20 2013 [10979][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL] Array
+(
+    [pvstrDatos] => <Importar><NombreConexion>prueba</NombreConexion><IdCia>1</IdCia><Usuario>unoee</Usuario><Clave>unoee</Clave><Datos><Linea>000000100000001001</Linea><Linea>0000002035000010012001CPR0000000120130130890320064      0003000                                                                                                                                                                                                                                                               </Linea><Linea>000000303510002001001CPR000000016155500501          890320064      001T7-22               100199         a         +000000004624173.1200+000000000000000.0000+000000000000000.0000+000000000000000.0000+000000000000000.0000  00000000                                                                                                                                                                                                                                                               </Linea><Linea>000000403510002001001CPR00000001142005              890320064      001T7-22               100199         a         +000000000000000.0000+000000004624173.1200+000000000000000.0000+000000000000000.0000+000000000000000.0000  00000000                                                                                                                                                                                                                                                               </Linea><Linea>000000599990001001</Linea></Datos></Importar>
+    [printTipoError] => 1
+)
+
+Thu Jan 31 16:10:42 2013 [11405][21af1ede-6dc4-f5dd-f914-50ddbcc62053][FATAL] Exception in Controller: String could not be parsed as XML
+Thu Jan 31 17:30:58 2013 [12217][32244b13-1662-fb04-3006-5092a4db112d][FATAL] IP Address mismatch: SESSION IP: 10.0.1.1 CLIENT IP: 10.0.0.1
+Fri Feb  1 08:04:31 2013 [548][-none-][FATAL] SECURITY: User authentication for julian.preciado failed
+Fri Feb  1 08:04:31 2013 [548][-none-][FATAL] FAILED LOGIN:attempts[1] - julian.preciado
+Fri Feb  1 08:45:48 2013 [930][82cee220-a050-b6ad-0c04-50ddbcda4a0f][FATAL] IP Address mismatch: SESSION IP: 10.0.0.1 CLIENT IP: 10.0.2.240
+Fri Feb  1 09:48:45 2013 [2202][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 09:49:26 2013 [2195][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 09:49:57 2013 [1969][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 09:50:53 2013 [2193][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 10:17:48 2013 [2609][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 10:30:57 2013 [2622][c777d34e-2631-d978-dad9-50ddbcf52eb6][FATAL] Error conectando MS-SQL
+Fri Feb  1 11:07:21 2013 [2753][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 11:07:55 2013 [2610][-none-][FATAL] SECURITY: User authentication for erick.sanchez failed
+Fri Feb  1 11:07:55 2013 [2610][-none-][FATAL] FAILED LOGIN:attempts[1] - erick.sanchez
+Fri Feb  1 11:08:03 2013 [2718][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 11:26:35 2013 [3044][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 11:30:59 2013 [3188][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 11:32:31 2013 [3185][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 11:32:54 2013 [3188][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 11:33:18 2013 [3246][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 11:51:54 2013 [3354][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 11:53:40 2013 [3265][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 11:55:07 2013 [3287][cc59b5f7-c11f-e40a-60cb-50ddbc17f5b6][FATAL] Exception in Controller: String could not be parsed as XML
+Fri Feb  1 11:55:29 2013 [3461][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 11:56:41 2013 [3461][cc59b5f7-c11f-e40a-60cb-50ddbc17f5b6][FATAL] Exception in Controller: String could not be parsed as XML
+Fri Feb  1 11:56:43 2013 [3461][cc59b5f7-c11f-e40a-60cb-50ddbc17f5b6][FATAL] Exception in Controller: String could not be parsed as XML
+Fri Feb  1 11:59:29 2013 [3571][-none-][FATAL] SECURITY: User authentication for jairo.rivera failed
+Fri Feb  1 11:59:29 2013 [3571][-none-][FATAL] FAILED LOGIN:attempts[1] - jairo.rivera
+Fri Feb  1 13:39:44 2013 [4034][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 14:17:16 2013 [4214][-none-][FATAL] SECURITY: User authentication for javier.micolta failed
+Fri Feb  1 14:17:16 2013 [4214][-none-][FATAL] FAILED LOGIN:attempts[1] - javier.micolta
+Fri Feb  1 14:21:08 2013 [4267][-none-][FATAL] SECURITY: User authentication for julio.garcia failed
+Fri Feb  1 14:21:08 2013 [4267][-none-][FATAL] FAILED LOGIN:attempts[1] - julio.garcia
+Fri Feb  1 14:44:20 2013 [4486][831909bc-1e73-5fc8-8ee4-50ddbc21d988][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+Fri Feb  1 15:10:21 2013 [4662][-none-][FATAL] SECURITY: User authentication for alba.naranjo failed
+Fri Feb  1 15:10:21 2013 [4662][-none-][FATAL] FAILED LOGIN:attempts[1] - alba.naranjo
+Fri Feb  1 15:34:42 2013 [4899][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Exception in Controller: String could not be parsed as XML
+Fri Feb  1 15:36:16 2013 [4998][2ce30ead-51d6-7a69-9a54-50ddbc5a8c0a][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+Fri Feb  1 15:59:34 2013 [5425][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 16:00:49 2013 [5387][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 16:01:45 2013 [5470][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 16:05:06 2013 [5559][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 16:10:18 2013 [5729][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 16:13:06 2013 [5830][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 16:13:48 2013 [5669][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 16:23:19 2013 [5983][831909bc-1e73-5fc8-8ee4-50ddbc21d988][FATAL] IP Address mismatch: SESSION IP: 10.0.1.41 CLIENT IP: 10.0.2.115
+Fri Feb  1 16:26:19 2013 [6078][831909bc-1e73-5fc8-8ee4-50ddbc21d988][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+Fri Feb  1 17:11:25 2013 [6894][cc59b5f7-c11f-e40a-60cb-50ddbc17f5b6][FATAL] Exception in Controller: String could not be parsed as XML
+Fri Feb  1 22:11:04 2013 [7064][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 22:11:43 2013 [7062][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 22:17:52 2013 [6863][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 22:19:38 2013 [7008][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 22:21:33 2013 [7062][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 22:22:20 2013 [6927][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 22:26:39 2013 [7000][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 22:28:32 2013 [7030][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  1 22:29:02 2013 [7037][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Sat Feb  2 08:14:41 2013 [10147][907acf65-49f0-5e3c-8a69-50ddbc950aa2][FATAL] Exception in Controller: String could not be parsed as XML
+Sat Feb  2 11:30:49 2013 [10219][-none-][FATAL] SECURITY: User authentication for humberto.cabra failed
+Sat Feb  2 11:30:49 2013 [10219][-none-][FATAL] FAILED LOGIN:attempts[1] - humberto.cabra
+Sat Feb  2 11:31:31 2013 [10152][-none-][FATAL] SECURITY: User authentication for humberto.cabra failed
+Sat Feb  2 11:31:31 2013 [10152][-none-][FATAL] FAILED LOGIN:attempts[2] - humberto.cabra
+Sat Feb  2 11:32:41 2013 [10155][-none-][FATAL] SECURITY: User authentication for humberto.cabra failed
+Sat Feb  2 11:32:41 2013 [10155][-none-][FATAL] FAILED LOGIN:attempts[3] - humberto.cabra
+Sat Feb  2 16:29:18 2013 [10219][1a7c8389-15b1-d4a7-7249-50ddbcbb0376][FATAL] Exception in Controller: String could not be parsed as XML
+Mon Feb  4 08:50:54 2013 [1552][-none-][FATAL] SECURITY: User authentication for sandra.giraldo failed
+Mon Feb  4 08:50:54 2013 [1552][-none-][FATAL] FAILED LOGIN:attempts[1] - sandra.giraldo
+Mon Feb  4 09:28:35 2013 [1974][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Mon Feb  4 09:29:05 2013 [1929][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Mon Feb  4 09:29:26 2013 [1971][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Mon Feb  4 09:29:41 2013 [1640][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Mon Feb  4 09:31:35 2013 [1971][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Mon Feb  4 09:34:08 2013 [1980][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Mon Feb  4 09:35:10 2013 [1976][c7ccf160-d449-1ce4-c981-50ddbc49c4d7][FATAL]  Query Failed: INSERT INTO project_accounts(id, date_modified, deleted, account_id, project_id) VALUES('28a020dd-0790-340c-1a67-510fc77bb083', now(), 0, '29715d22-2f65-4426-cdb8-50f870d41b12', '1ba4620e-081f-8393-ced9-510fc78bd436');: MySQL error 1146: Table 'crm.project_accounts' doesn't exist
+Mon Feb  4 09:37:09 2013 [1929][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Mon Feb  4 09:39:29 2013 [1938][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Mon Feb  4 09:39:59 2013 [1640][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Mon Feb  4 10:10:17 2013 [2546][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL] IP Address mismatch: SESSION IP: 181.52.138.178 CLIENT IP: 10.0.0.1
+Mon Feb  4 11:38:51 2013 [4025][-none-][FATAL] SECURITY: User authentication for claudia.ortiz failed
+Mon Feb  4 11:38:51 2013 [4025][-none-][FATAL] FAILED LOGIN:attempts[1] - claudia.ortiz
+Mon Feb  4 11:38:59 2013 [3928][-none-][FATAL] SECURITY: User authentication for claudia.ortiz failed
+Mon Feb  4 11:38:59 2013 [3928][-none-][FATAL] FAILED LOGIN:attempts[2] - claudia.ortiz
+Mon Feb  4 11:51:00 2013 [4172][82cee220-a050-b6ad-0c04-50ddbcda4a0f][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Mon Feb  4 12:24:26 2013 [431][-none-][FATAL] Could not connect to DB server localhost as crm. port : No such file or directory
+Mon Feb  4 12:24:26 2013 [430][-none-][FATAL] Could not connect to DB server localhost as crm. port : No such file or directory
+Mon Feb  4 12:34:51 2013 [754][16121a84-0634-acc2-4d7b-50ddbc036c5f][FATAL] Exception in Controller: String could not be parsed as XML
+Mon Feb  4 12:34:59 2013 [741][16121a84-0634-acc2-4d7b-50ddbc036c5f][FATAL] Exception in Controller: String could not be parsed as XML
+Mon Feb  4 12:37:05 2013 [754][90d9a87a-d4a0-423e-6861-50ddbc6f2389][FATAL] IP Address mismatch: SESSION IP: 10.0.2.16 CLIENT IP: 10.0.3.84
+Mon Feb  4 12:43:20 2013 [995][90d9a87a-d4a0-423e-6861-50ddbc6f2389][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Mon Feb  4 12:43:53 2013 [1022][90d9a87a-d4a0-423e-6861-50ddbc6f2389][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Mon Feb  4 12:44:14 2013 [1034][90d9a87a-d4a0-423e-6861-50ddbc6f2389][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Mon Feb  4 12:45:32 2013 [1039][90d9a87a-d4a0-423e-6861-50ddbc6f2389][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Mon Feb  4 14:35:18 2013 [2333][-none-][FATAL] SECURITY: User authentication for jairo.rivera failed
+Mon Feb  4 14:35:18 2013 [2333][-none-][FATAL] FAILED LOGIN:attempts[1] - jairo.rivera
+Mon Feb  4 14:51:09 2013 [2553][-none-][FATAL] SECURITY: User authentication for carlosf.martinez  failed
+Mon Feb  4 14:51:09 2013 [2553][-none-][FATAL] FAILED LOGIN:attempts[1] - carlosf.martinez 
+Mon Feb  4 14:51:16 2013 [2577][-none-][FATAL] SECURITY: User authentication for carlosf.martinez  failed
+Mon Feb  4 14:51:16 2013 [2577][-none-][FATAL] FAILED LOGIN:attempts[2] - carlosf.martinez 
+Mon Feb  4 14:51:43 2013 [2577][-none-][FATAL] SECURITY: User authentication for carlosf.martinez  failed
+Mon Feb  4 14:51:43 2013 [2577][-none-][FATAL] FAILED LOGIN:attempts[3] - carlosf.martinez 
+Mon Feb  4 14:51:56 2013 [2543][-none-][FATAL] SECURITY: User authentication for carlosf.martinez  failed
+Mon Feb  4 14:51:56 2013 [2543][-none-][FATAL] FAILED LOGIN:attempts[4] - carlosf.martinez 
+Mon Feb  4 15:41:42 2013 [3070][-none-][FATAL] SECURITY: User authentication for julian.naranjo failed
+Mon Feb  4 15:41:42 2013 [3070][-none-][FATAL] FAILED LOGIN:attempts[1] - julian.naranjo
+Mon Feb  4 15:41:54 2013 [2994][-none-][FATAL] SECURITY: User authentication for julian.naranjo failed
+Mon Feb  4 15:41:54 2013 [2994][-none-][FATAL] FAILED LOGIN:attempts[2] - julian.naranjo
+Mon Feb  4 15:42:26 2013 [3173][-none-][FATAL] SECURITY: User authentication for julian.naranjo failed
+Mon Feb  4 15:42:26 2013 [3173][-none-][FATAL] FAILED LOGIN:attempts[3] - julian.naranjo
+Mon Feb  4 16:15:34 2013 [3435][e6158d02-53bd-165b-3e95-50ddbcb252e7][FATAL] Exception in Controller: String could not be parsed as XML
+Mon Feb  4 16:15:46 2013 [3498][e6158d02-53bd-165b-3e95-50ddbcb252e7][FATAL] Exception in Controller: String could not be parsed as XML
+Mon Feb  4 17:36:28 2013 [3882][2c85cacc-bbdb-6b5a-d2e5-50ddbc59e1a2][FATAL] IP Address mismatch: SESSION IP: 10.0.1.96 CLIENT IP: 10.0.0.1
+Tue Feb  5 07:14:30 2013 [3887][-none-][FATAL] SECURITY: User authentication for luis.aragon failed
+Tue Feb  5 07:14:30 2013 [3887][-none-][FATAL] FAILED LOGIN:attempts[1] - luis.aragon
+Tue Feb  5 07:57:51 2013 [6995][16121a84-0634-acc2-4d7b-50ddbc036c5f][FATAL] Exception in Controller: String could not be parsed as XML
+Tue Feb  5 07:57:56 2013 [6993][16121a84-0634-acc2-4d7b-50ddbc036c5f][FATAL] Exception in Controller: String could not be parsed as XML
+Tue Feb  5 07:58:04 2013 [7003][16121a84-0634-acc2-4d7b-50ddbc036c5f][FATAL] Exception in Controller: String could not be parsed as XML
+Tue Feb  5 07:58:51 2013 [6852][32244b13-1662-fb04-3006-5092a4db112d][FATAL] DeployedMetaDataImplementation: could not write new viewdef file custom/working/modules/Users/metadata/editviewdefs.php
+Tue Feb  5 07:59:14 2013 [6966][16121a84-0634-acc2-4d7b-50ddbc036c5f][FATAL] Exception in Controller: String could not be parsed as XML
+Tue Feb  5 08:01:51 2013 [7091][16121a84-0634-acc2-4d7b-50ddbc036c5f][FATAL] Exception in Controller: String could not be parsed as XML
+Tue Feb  5 08:09:27 2013 [7223][16121a84-0634-acc2-4d7b-50ddbc036c5f][FATAL] Exception in Controller: String could not be parsed as XML
+Tue Feb  5 08:46:29 2013 [7301][2c85cacc-bbdb-6b5a-d2e5-50ddbc59e1a2][FATAL] project_resource for projects_contacts_resources failed to load
+
+Tue Feb  5 08:46:29 2013 [7301][2c85cacc-bbdb-6b5a-d2e5-50ddbc59e1a2][FATAL] error loading relationship project_resource
+Tue Feb  5 08:53:17 2013 [7499][5376945b-5fe3-4716-c9ee-50ddbc74fd6d][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+Tue Feb  5 08:55:48 2013 [7448][5376945b-5fe3-4716-c9ee-50ddbc74fd6d][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+Tue Feb  5 08:57:57 2013 [7525][5376945b-5fe3-4716-c9ee-50ddbc74fd6d][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+Tue Feb  5 09:26:31 2013 [7900][a46eca76-d9e0-4361-bad6-50ddbc2bdde7][FATAL] IP Address mismatch: SESSION IP: 10.0.0.1 CLIENT IP: 10.0.3.98
+Tue Feb  5 10:02:46 2013 [8656][7fc5630c-0cb3-7cd2-6622-50ddbc38e463][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb  5 10:03:02 2013 [8589][7fc5630c-0cb3-7cd2-6622-50ddbc38e463][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb  5 10:03:17 2013 [8660][7fc5630c-0cb3-7cd2-6622-50ddbc38e463][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb  5 10:15:59 2013 [8823][-none-][FATAL] SECURITY: User authentication for fabio.perea failed
+Tue Feb  5 10:15:59 2013 [8823][-none-][FATAL] FAILED LOGIN:attempts[1] - fabio.perea
+Tue Feb  5 10:33:53 2013 [9163][5376945b-5fe3-4716-c9ee-50ddbc74fd6d][FATAL] IP Address mismatch: SESSION IP: 10.0.1.74 CLIENT IP: 10.0.3.108
+Tue Feb  5 11:10:34 2013 [9811][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] IP Address mismatch: SESSION IP: 10.0.3.121 CLIENT IP: 10.0.1.255
+Tue Feb  5 11:23:16 2013 [10174][668682b0-4ca9-93f9-3698-50ddbc9462ce][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb  5 11:59:26 2013 [11331][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Error: Se ha alcanzado el límite 1000 de consultas para el módulo Project.
+Tue Feb  5 12:12:33 2013 [11993][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb  5 12:18:38 2013 [12256][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Error: Se ha alcanzado el límite 1000 de consultas para el módulo Project.
+Tue Feb  5 12:19:39 2013 [12238][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Exception in Controller: String could not be parsed as XML
+Tue Feb  5 12:19:41 2013 [12267][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Exception in Controller: String could not be parsed as XML
+Tue Feb  5 12:34:30 2013 [12921][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Error: Se ha alcanzado el límite 1000 de consultas para el módulo Project.
+Tue Feb  5 12:42:41 2013 [13300][831909bc-1e73-5fc8-8ee4-50ddbc21d988][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+Tue Feb  5 12:50:14 2013 [13579][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] IP Address mismatch: SESSION IP: 10.0.1.255 CLIENT IP: 10.0.3.121
+Tue Feb  5 13:52:44 2013 [16151][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Exception in Controller: String could not be parsed as XML
+Tue Feb  5 14:29:33 2013 [17284][82cee220-a050-b6ad-0c04-50ddbcda4a0f][FATAL] IP Address mismatch: SESSION IP: 10.0.2.240 CLIENT IP: 10.0.3.131
+Tue Feb  5 14:51:42 2013 [17923][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb  5 15:05:02 2013 [18571][7fc5630c-0cb3-7cd2-6622-50ddbc38e463][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb  5 15:05:15 2013 [18579][7fc5630c-0cb3-7cd2-6622-50ddbc38e463][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb  5 15:06:37 2013 [18637][7fc5630c-0cb3-7cd2-6622-50ddbc38e463][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb  5 15:07:32 2013 [18715][7fc5630c-0cb3-7cd2-6622-50ddbc38e463][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb  5 15:09:04 2013 [18800][5dc88d0f-b4d4-3429-8fab-50ddbcba97e7][FATAL] Exception in Controller: String could not be parsed as XML
+Tue Feb  5 15:10:09 2013 [18890][-none-][FATAL] SECURITY: User authentication for sandra.giraldo failed
+Tue Feb  5 15:10:09 2013 [18890][-none-][FATAL] FAILED LOGIN:attempts[1] - sandra.giraldo
+Tue Feb  5 15:10:38 2013 [18855][5dc88d0f-b4d4-3429-8fab-50ddbcba97e7][FATAL] Exception in Controller: String could not be parsed as XML
+Tue Feb  5 15:14:33 2013 [19126][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb  5 15:16:24 2013 [19102][7fc5630c-0cb3-7cd2-6622-50ddbc38e463][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb  5 15:51:23 2013 [20515][5376945b-5fe3-4716-c9ee-50ddbc74fd6d][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+Tue Feb  5 16:07:00 2013 [21156][-none-][FATAL] SECURITY: User authentication for claudia.ortiz failed
+Tue Feb  5 16:07:00 2013 [21156][-none-][FATAL] FAILED LOGIN:attempts[1] - claudia.ortiz
+Tue Feb  5 16:07:34 2013 [21136][-none-][FATAL] SECURITY: User authentication for claudia.ortiz failed
+Tue Feb  5 16:07:34 2013 [21136][-none-][FATAL] FAILED LOGIN:attempts[2] - claudia.ortiz
+Tue Feb  5 16:11:32 2013 [21368][-none-][FATAL] SECURITY: User authentication for claudia.ortiz failed
+Tue Feb  5 16:11:32 2013 [21368][-none-][FATAL] FAILED LOGIN:attempts[1] - claudia.ortiz
+Tue Feb  5 16:21:33 2013 [21771][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Error: Se ha alcanzado el límite 1000 de consultas para el módulo Project.
+Tue Feb  5 16:31:58 2013 [22190][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Tue Feb  5 16:36:39 2013 [22305][-none-][FATAL] SECURITY: User authentication for alba.naranjo failed
+Tue Feb  5 16:36:39 2013 [22305][-none-][FATAL] FAILED LOGIN:attempts[1] - alba.naranjo
+Tue Feb  5 16:36:51 2013 [22266][-none-][FATAL] SECURITY: User authentication for alba.naranjo failed
+Tue Feb  5 16:36:51 2013 [22266][-none-][FATAL] FAILED LOGIN:attempts[2] - alba.naranjo
+Tue Feb  5 16:51:03 2013 [22913][-none-][FATAL] SECURITY: User authentication for leydi.zambrano  failed
+Tue Feb  5 16:51:03 2013 [22913][-none-][FATAL] FAILED LOGIN:attempts[1] - leydi.zambrano 
+Tue Feb  5 17:08:49 2013 [23508][16121a84-0634-acc2-4d7b-50ddbc036c5f][FATAL] Exception in Controller: String could not be parsed as XML
+Tue Feb  5 17:13:37 2013 [23647][-none-][FATAL] FAILED LOGIN:attempts[1] - ruben.botero
+Tue Feb  5 17:14:24 2013 [23636][-none-][FATAL] SECURITY: User authentication for ruben.botero failed
+Tue Feb  5 17:14:24 2013 [23636][-none-][FATAL] FAILED LOGIN:attempts[2] - ruben.botero
+Tue Feb  5 17:14:56 2013 [23704][-none-][FATAL] SECURITY: User authentication for ruben.botero failed
+Tue Feb  5 17:14:56 2013 [23704][-none-][FATAL] FAILED LOGIN:attempts[3] - ruben.botero
+Tue Feb  5 17:15:11 2013 [23636][-none-][FATAL] SECURITY: User authentication for ruben.botero failed
+Tue Feb  5 17:15:11 2013 [23636][-none-][FATAL] FAILED LOGIN:attempts[4] - ruben.botero
+Tue Feb  5 17:15:32 2013 [23742][-none-][FATAL] SECURITY: User authentication for ruben.botero failed
+Tue Feb  5 17:15:32 2013 [23742][-none-][FATAL] FAILED LOGIN:attempts[5] - ruben.botero
+Tue Feb  5 17:16:30 2013 [23768][-none-][FATAL] SECURITY: User authentication for ruben.botero failed
+Tue Feb  5 17:16:30 2013 [23768][-none-][FATAL] FAILED LOGIN:attempts[6] - ruben.botero
+Tue Feb  5 17:25:36 2013 [23921][-none-][FATAL] SECURITY: User authentication for sandra.giraldo failed
+Tue Feb  5 17:25:36 2013 [23921][-none-][FATAL] FAILED LOGIN:attempts[1] - sandra.giraldo
+Tue Feb  5 17:45:10 2013 [24005][900e4af6-e483-cbd2-5f7b-50ddbcbd1715][FATAL] IP Address mismatch: SESSION IP: 10.0.3.158 CLIENT IP: 10.0.1.138
+Tue Feb  5 17:54:30 2013 [24043][c7ccf160-d449-1ce4-c981-50ddbc49c4d7][FATAL]  Query Failed: INSERT INTO project_accounts(id, date_modified, deleted, account_id, project_id) VALUES('371d62cb-4a55-6284-e9fe-51118dd98942', now(), 0, 'e37bcfe2-d963-8e9e-3269-5102eed822f3', '325f7595-8a93-61e4-ef3a-51118d427e6c');: MySQL error 1146: Table 'crm.project_accounts' doesn't exist
+Wed Feb  6 07:26:12 2013 [24153][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] quotes for projects_quotes failed to load
+
+Wed Feb  6 07:26:12 2013 [24153][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] error loading relationship quotes
+Wed Feb  6 08:04:57 2013 [28460][-none-][FATAL] SECURITY: User authentication for juan.ramirez failed
+Wed Feb  6 08:04:57 2013 [28460][-none-][FATAL] FAILED LOGIN:attempts[1] - juan.ramirez
+Wed Feb  6 08:16:27 2013 [28769][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] quotes for projects_quotes failed to load
+
+Wed Feb  6 08:16:27 2013 [28769][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] error loading relationship quotes
+Wed Feb  6 08:32:15 2013 [30117][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] quotes for projects_quotes failed to load
+
+Wed Feb  6 08:32:15 2013 [30117][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] error loading relationship quotes
+Wed Feb  6 08:46:41 2013 [31055][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 08:47:06 2013 [31074][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 09:03:41 2013 [32032][-none-][FATAL] SECURITY: User authentication for mariano.hurtado failed
+Wed Feb  6 09:03:41 2013 [32032][-none-][FATAL] FAILED LOGIN:attempts[1] - mariano.hurtado
+Wed Feb  6 09:03:52 2013 [32052][-none-][FATAL] SECURITY: User authentication for mariano.hurtado failed
+Wed Feb  6 09:03:52 2013 [32052][-none-][FATAL] FAILED LOGIN:attempts[2] - mariano.hurtado
+Wed Feb  6 09:11:44 2013 [32492][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 09:16:02 2013 [32783][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] quotes for projects_quotes failed to load
+
+Wed Feb  6 09:16:02 2013 [32783][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] error loading relationship quotes
+Wed Feb  6 09:16:47 2013 [32774][2c85cacc-bbdb-6b5a-d2e5-50ddbc59e1a2][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+Wed Feb  6 09:19:37 2013 [32935][2c85cacc-bbdb-6b5a-d2e5-50ddbc59e1a2][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+Wed Feb  6 09:20:53 2013 [33096][2c85cacc-bbdb-6b5a-d2e5-50ddbc59e1a2][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+Wed Feb  6 09:22:17 2013 [33074][2c85cacc-bbdb-6b5a-d2e5-50ddbc59e1a2][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+Wed Feb  6 09:22:54 2013 [33184][2c85cacc-bbdb-6b5a-d2e5-50ddbc59e1a2][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+Wed Feb  6 09:45:06 2013 [39132][5dc88d0f-b4d4-3429-8fab-50ddbcba97e7][FATAL] Exception in Controller: String could not be parsed as XML
+Wed Feb  6 10:03:32 2013 [39970][2ce30ead-51d6-7a69-9a54-50ddbc5a8c0a][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+Wed Feb  6 10:11:21 2013 [40322][2ce30ead-51d6-7a69-9a54-50ddbc5a8c0a][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+Wed Feb  6 10:25:28 2013 [40881][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 10:26:22 2013 [40869][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 11:13:52 2013 [43204][bbc82ceb-4353-f6aa-37e7-50ddbc436b45][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 11:21:03 2013 [43554][bbc82ceb-4353-f6aa-37e7-50ddbc436b45][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 11:28:34 2013 [43859][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] quotes for projects_quotes failed to load
+
+Wed Feb  6 11:28:34 2013 [43859][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] error loading relationship quotes
+Wed Feb  6 11:52:20 2013 [44542][bbc82ceb-4353-f6aa-37e7-50ddbc436b45][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 11:53:41 2013 [44563][bbc82ceb-4353-f6aa-37e7-50ddbc436b45][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 11:53:56 2013 [44566][-none-][FATAL] SECURITY: User authentication for sandra.giraldo failed
+Wed Feb  6 11:53:56 2013 [44566][-none-][FATAL] FAILED LOGIN:attempts[1] - sandra.giraldo
+Wed Feb  6 11:54:47 2013 [44625][bbc82ceb-4353-f6aa-37e7-50ddbc436b45][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 12:01:00 2013 [45021][bbc82ceb-4353-f6aa-37e7-50ddbc436b45][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 12:01:26 2013 [44729][bbc82ceb-4353-f6aa-37e7-50ddbc436b45][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 12:02:36 2013 [45131][bbc82ceb-4353-f6aa-37e7-50ddbc436b45][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 12:03:30 2013 [45098][bbc82ceb-4353-f6aa-37e7-50ddbc436b45][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 12:05:50 2013 [45256][bbc82ceb-4353-f6aa-37e7-50ddbc436b45][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 12:10:19 2013 [45260][-none-][FATAL] SECURITY: User authentication for alba.naranjo failed
+Wed Feb  6 12:10:19 2013 [45260][-none-][FATAL] FAILED LOGIN:attempts[1] - alba.naranjo
+Wed Feb  6 12:11:09 2013 [45361][bbc82ceb-4353-f6aa-37e7-50ddbc436b45][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 12:11:56 2013 [45376][bbc82ceb-4353-f6aa-37e7-50ddbc436b45][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 12:12:44 2013 [45260][bbc82ceb-4353-f6aa-37e7-50ddbc436b45][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 12:13:17 2013 [45384][bbc82ceb-4353-f6aa-37e7-50ddbc436b45][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:40:22 2013 [47783][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:41:00 2013 [47617][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:41:31 2013 [47840][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:41:57 2013 [47837][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:42:25 2013 [47748][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:42:47 2013 [47900][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:43:10 2013 [47897][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:43:31 2013 [47918][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:45:49 2013 [47918][87a7a5bd-e87d-f971-8d33-50ddbc338b49][FATAL] Exception in Controller: String could not be parsed as XML
+Wed Feb  6 13:46:34 2013 [47963][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:46:57 2013 [48018][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:47:17 2013 [47963][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:47:47 2013 [48018][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:48:08 2013 [48083][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:48:29 2013 [48018][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:48:48 2013 [48101][87a7a5bd-e87d-f971-8d33-50ddbc338b49][FATAL] IP Address mismatch: SESSION IP: 10.0.2.197 CLIENT IP: 10.0.3.0
+Wed Feb  6 13:48:51 2013 [47963][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:49:17 2013 [48118][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:52:21 2013 [48196][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:52:44 2013 [48199][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 13:53:15 2013 [48251][87a7a5bd-e87d-f971-8d33-50ddbc338b49][FATAL] Exception in Controller: String could not be parsed as XML
+Wed Feb  6 14:01:05 2013 [48494][87a7a5bd-e87d-f971-8d33-50ddbc338b49][FATAL] Exception in Controller: String could not be parsed as XML
+Wed Feb  6 14:01:06 2013 [48494][87a7a5bd-e87d-f971-8d33-50ddbc338b49][FATAL] Exception in Controller: String could not be parsed as XML
+Wed Feb  6 14:01:08 2013 [48494][87a7a5bd-e87d-f971-8d33-50ddbc338b49][FATAL] Exception in Controller: String could not be parsed as XML
+Wed Feb  6 14:01:36 2013 [48380][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:02:15 2013 [48603][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:02:39 2013 [48605][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:03:10 2013 [48603][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:07:59 2013 [48754][87a7a5bd-e87d-f971-8d33-50ddbc338b49][FATAL] Exception in Controller: String could not be parsed as XML
+Wed Feb  6 14:08:02 2013 [48754][87a7a5bd-e87d-f971-8d33-50ddbc338b49][FATAL] Exception in Controller: String could not be parsed as XML
+Wed Feb  6 14:12:07 2013 [48836][87a7a5bd-e87d-f971-8d33-50ddbc338b49][FATAL] Exception in Controller: String could not be parsed as XML
+Wed Feb  6 14:25:00 2013 [49197][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:25:23 2013 [49310][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:25:44 2013 [49334][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:26:16 2013 [49357][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:26:34 2013 [49377][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:26:56 2013 [49251][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:27:20 2013 [49389][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:27:43 2013 [49390][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:28:03 2013 [49421][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:28:23 2013 [49357][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:28:45 2013 [49455][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:35:52 2013 [49747][bbc82ceb-4353-f6aa-37e7-50ddbc436b45][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:44:15 2013 [50029][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:44:36 2013 [50062][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:44:54 2013 [50055][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:45:11 2013 [50061][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:45:31 2013 [50127][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:45:48 2013 [50029][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:46:09 2013 [50147][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:46:28 2013 [50029][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:46:48 2013 [50065][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 14:49:30 2013 [50280][-none-][FATAL] SECURITY: User authentication for claudia.ortiz failed
+Wed Feb  6 14:49:30 2013 [50280][-none-][FATAL] FAILED LOGIN:attempts[1] - claudia.ortiz
+Wed Feb  6 15:13:18 2013 [50744][-none-][FATAL] SECURITY: User authentication for angelly.mondragon failed
+Wed Feb  6 15:13:18 2013 [50744][-none-][FATAL] FAILED LOGIN:attempts[1] - angelly.mondragon
+Wed Feb  6 15:13:25 2013 [50769][-none-][FATAL] SECURITY: User authentication for angelly.mondragon failed
+Wed Feb  6 15:13:25 2013 [50769][-none-][FATAL] FAILED LOGIN:attempts[2] - angelly.mondragon
+Wed Feb  6 15:50:32 2013 [51764][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 15:50:54 2013 [51768][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 15:51:15 2013 [51791][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 15:53:19 2013 [52222][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 15:53:40 2013 [52218][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 15:54:48 2013 [52277][c7ccf160-d449-1ce4-c981-50ddbc49c4d7][FATAL]  Query Failed: INSERT INTO project_accounts(id, date_modified, deleted, account_id, project_id) VALUES('479ef478-421b-122d-3d64-5112c3f0de4e', now(), 0, '9cd943e6-4cb3-63f2-d91a-50be22dec1be', '');: MySQL error 1146: Table 'crm.project_accounts' doesn't exist
+Wed Feb  6 15:56:07 2013 [52387][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 15:56:34 2013 [52446][c7ccf160-d449-1ce4-c981-50ddbc49c4d7][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 15:56:54 2013 [52388][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 15:57:44 2013 [52373][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 15:58:41 2013 [52303][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 16:06:12 2013 [52884][-none-][FATAL] SECURITY: User authentication for andres.guzman failed
+Wed Feb  6 16:06:12 2013 [52884][-none-][FATAL] FAILED LOGIN:attempts[1] - andres.guzman
+Wed Feb  6 16:06:33 2013 [52933][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 16:07:19 2013 [53062][-none-][FATAL] SECURITY: User authentication for andres.guzman  failed
+Wed Feb  6 16:07:19 2013 [53062][-none-][FATAL] FAILED LOGIN:attempts[1] - andres.guzman 
+Wed Feb  6 16:07:45 2013 [53115][-none-][FATAL] SECURITY: User authentication for andres.guzman  failed
+Wed Feb  6 16:07:45 2013 [53115][-none-][FATAL] FAILED LOGIN:attempts[2] - andres.guzman 
+Wed Feb  6 16:10:09 2013 [53142][-none-][FATAL] SECURITY: User authentication for andres.guzman  failed
+Wed Feb  6 16:10:09 2013 [53142][-none-][FATAL] FAILED LOGIN:attempts[3] - andres.guzman 
+Wed Feb  6 16:11:46 2013 [53261][-none-][FATAL] SECURITY: User authentication for andres.guzman  failed
+Wed Feb  6 16:11:46 2013 [53261][-none-][FATAL] FAILED LOGIN:attempts[4] - andres.guzman 
+Wed Feb  6 16:14:22 2013 [53229][-none-][FATAL] SECURITY: User authentication for andres.guzman  failed
+Wed Feb  6 16:14:22 2013 [53229][-none-][FATAL] FAILED LOGIN:attempts[5] - andres.guzman 
+Wed Feb  6 16:14:53 2013 [53478][-none-][FATAL] SECURITY: User authentication for andres.guzman  failed
+Wed Feb  6 16:14:53 2013 [53478][-none-][FATAL] FAILED LOGIN:attempts[6] - andres.guzman 
+Wed Feb  6 16:15:53 2013 [53537][-none-][FATAL] SECURITY: User authentication for andres.guzman  failed
+Wed Feb  6 16:15:53 2013 [53537][-none-][FATAL] FAILED LOGIN:attempts[7] - andres.guzman 
+Wed Feb  6 16:17:43 2013 [53538][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 16:17:51 2013 [53644][-none-][FATAL] SECURITY: User authentication for andres.guzman  failed
+Wed Feb  6 16:17:51 2013 [53644][-none-][FATAL] FAILED LOGIN:attempts[8] - andres.guzman 
+Wed Feb  6 16:22:22 2013 [53538][-none-][FATAL] SECURITY: User authentication for andres.guzman  failed
+Wed Feb  6 16:22:22 2013 [53538][-none-][FATAL] FAILED LOGIN:attempts[1] - andres.guzman 
+Wed Feb  6 16:22:36 2013 [53924][-none-][FATAL] SECURITY: User authentication for andres.guzman  failed
+Wed Feb  6 16:22:36 2013 [53924][-none-][FATAL] FAILED LOGIN:attempts[2] - andres.guzman 
+Wed Feb  6 16:23:39 2013 [53977][-none-][FATAL] SECURITY: User authentication for andres.guzman  failed
+Wed Feb  6 16:23:39 2013 [53977][-none-][FATAL] FAILED LOGIN:attempts[1] - andres.guzman 
+Wed Feb  6 16:28:18 2013 [54151][c7ccf160-d449-1ce4-c981-50ddbc49c4d7][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 16:28:28 2013 [54183][c7ccf160-d449-1ce4-c981-50ddbc49c4d7][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 16:29:19 2013 [54264][c7ccf160-d449-1ce4-c981-50ddbc49c4d7][FATAL]  Query Failed: INSERT INTO project_accounts(id, date_modified, deleted, account_id, project_id) VALUES('d1e2462e-acb2-f65a-7c17-5112cb14ad8e', now(), 0, 'be47d85f-5716-f6bf-c6a3-50f870962c3a', 'c71cbc56-8086-dcc1-9f64-5112cb9d44cf');: MySQL error 1146: Table 'crm.project_accounts' doesn't exist
+Wed Feb  6 16:37:39 2013 [54844][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 16:38:33 2013 [54896][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 16:39:05 2013 [54997][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 16:40:05 2013 [55064][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 16:44:43 2013 [55275][c7ccf160-d449-1ce4-c981-50ddbc49c4d7][FATAL]  Query Failed: INSERT INTO project_accounts(id, date_modified, deleted, account_id, project_id) VALUES('e4900b6f-eb18-f688-dfdc-5112ce724cad', now(), 0, '2364f0dc-b6fd-73ff-a85b-50f87099a6eb', 'df7ca8d4-fe76-8011-230e-5112ce999e1f');: MySQL error 1146: Table 'crm.project_accounts' doesn't exist
+Wed Feb  6 17:22:47 2013 [56177][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 17:22:58 2013 [56172][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 17:55:44 2013 [56121][90d9a87a-d4a0-423e-6861-50ddbc6f2389][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 17:56:34 2013 [56121][90d9a87a-d4a0-423e-6861-50ddbc6f2389][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 17:57:31 2013 [56177][90d9a87a-d4a0-423e-6861-50ddbc6f2389][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 17:59:02 2013 [56175][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 18:00:26 2013 [56755][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Wed Feb  6 18:14:47 2013 [56857][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] IP Address mismatch: SESSION IP: 10.0.1.88 CLIENT IP: 10.0.3.220
+Wed Feb  6 18:26:29 2013 [57130][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 07:39:29 2013 [60323][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] quotes for projects_quotes failed to load
+
+Thu Feb  7 07:39:29 2013 [60323][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] error loading relationship quotes
+Thu Feb  7 07:46:13 2013 [60451][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] quotes for projects_quotes failed to load
+
+Thu Feb  7 07:46:13 2013 [60451][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] error loading relationship quotes
+Thu Feb  7 08:11:34 2013 [61044][118b8b43-5221-e5aa-fdb8-50ddbc58dbc3][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 08:29:46 2013 [61611][118b8b43-5221-e5aa-fdb8-50ddbc58dbc3][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 08:32:00 2013 [61690][118b8b43-5221-e5aa-fdb8-50ddbc58dbc3][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 08:37:13 2013 [61756][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] quotes for projects_quotes failed to load
+
+Thu Feb  7 08:37:13 2013 [61756][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] error loading relationship quotes
+Thu Feb  7 08:46:56 2013 [61906][118b8b43-5221-e5aa-fdb8-50ddbc58dbc3][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 08:59:34 2013 [62223][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 09:00:33 2013 [62283][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 09:01:05 2013 [62286][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 09:01:29 2013 [62286][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 09:01:49 2013 [62341][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 09:02:10 2013 [62363][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 09:02:37 2013 [62283][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 09:04:35 2013 [62435][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 09:11:12 2013 [62671][-none-][FATAL] SECURITY: User authentication for jhon.zarate  failed
+Thu Feb  7 09:11:12 2013 [62671][-none-][FATAL] FAILED LOGIN:attempts[1] - jhon.zarate 
+Thu Feb  7 09:11:27 2013 [62685][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 09:11:32 2013 [62677][-none-][FATAL] SECURITY: User authentication for jhon.zarate failed
+Thu Feb  7 09:11:32 2013 [62677][-none-][FATAL] FAILED LOGIN:attempts[2] - jhon.zarate
+Thu Feb  7 10:09:16 2013 [3048][1b570028-8f68-3be9-0a56-50ddbc83c273][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 10:09:49 2013 [3081][1b570028-8f68-3be9-0a56-50ddbc83c273][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 10:10:16 2013 [3091][1b570028-8f68-3be9-0a56-50ddbc83c273][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 10:12:26 2013 [3176][1b570028-8f68-3be9-0a56-50ddbc83c273][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 10:13:05 2013 [3131][1b570028-8f68-3be9-0a56-50ddbc83c273][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 10:14:41 2013 [3239][1b570028-8f68-3be9-0a56-50ddbc83c273][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 10:15:41 2013 [3261][1b570028-8f68-3be9-0a56-50ddbc83c273][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 10:18:03 2013 [3211][1b570028-8f68-3be9-0a56-50ddbc83c273][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 10:20:56 2013 [3261][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 10:41:42 2013 [3989][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 10:42:17 2013 [4084][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 10:43:13 2013 [4097][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 10:44:56 2013 [4196][-none-][FATAL] SECURITY: User authentication for fernando.pretel failed
+Thu Feb  7 10:44:56 2013 [4196][-none-][FATAL] FAILED LOGIN:attempts[1] - fernando.pretel
+Thu Feb  7 10:53:51 2013 [4335][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 10:54:51 2013 [4378][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 10:55:12 2013 [4451][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 10:55:33 2013 [4463][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 10:56:04 2013 [4479][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 11:15:27 2013 [4832][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 11:18:19 2013 [4929][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 11:18:57 2013 [4926][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 11:19:59 2013 [4944][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Thu Feb  7 11:41:13 2013 [5505][-none-][FATAL] SECURITY: User authentication for claudia.ortiz failed
+Thu Feb  7 11:41:13 2013 [5505][-none-][FATAL] FAILED LOGIN:attempts[1] - claudia.ortiz
+Thu Feb  7 11:41:33 2013 [5537][-none-][FATAL] SECURITY: User authentication for claudia.ortiz failed
+Thu Feb  7 11:41:33 2013 [5537][-none-][FATAL] FAILED LOGIN:attempts[2] - claudia.ortiz
+Thu Feb  7 11:41:52 2013 [5559][-none-][FATAL] SECURITY: User authentication for claudia.ortiz failed
+Thu Feb  7 11:41:52 2013 [5559][-none-][FATAL] FAILED LOGIN:attempts[3] - claudia.ortiz
+Thu Feb  7 11:42:36 2013 [5575][-none-][FATAL] SECURITY: User authentication for claudia.ortiz failed
+Thu Feb  7 11:42:36 2013 [5575][-none-][FATAL] FAILED LOGIN:attempts[4] - claudia.ortiz
+Thu Feb  7 11:42:37 2013 [5564][-none-][FATAL] SECURITY: User authentication for claudia.ortiz failed
+Thu Feb  7 11:42:37 2013 [5564][-none-][FATAL] FAILED LOGIN:attempts[4] - claudia.ortiz
+Thu Feb  7 12:09:23 2013 [6269][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Error: Se ha alcanzado el límite 1000 de consultas para el módulo Project.
+Thu Feb  7 12:12:27 2013 [6267][df26e3d9-0cd1-decb-0e2c-50ddbc97eecc][FATAL] Error: Se ha alcanzado el límite 1000 de consultas para el módulo Project.
+Thu Feb  7 14:25:31 2013 [8650][-none-][FATAL] SECURITY: User authentication for luis.aragon failed
+Thu Feb  7 14:25:31 2013 [8650][-none-][FATAL] FAILED LOGIN:attempts[1] - luis.aragon
+Thu Feb  7 14:25:45 2013 [8650][-none-][FATAL] SECURITY: User authentication for luis.aragon failed
+Thu Feb  7 14:25:45 2013 [8650][-none-][FATAL] FAILED LOGIN:attempts[2] - luis.aragon
+Thu Feb  7 14:46:59 2013 [9040][-none-][FATAL] SECURITY: User authentication for fernando.pretel failed
+Thu Feb  7 14:46:59 2013 [9040][-none-][FATAL] FAILED LOGIN:attempts[1] - fernando.pretel
+Thu Feb  7 15:06:13 2013 [9418][5dc88d0f-b4d4-3429-8fab-50ddbcba97e7][FATAL] Error: Se ha alcanzado el límite 1000 de consultas para el módulo Project.
+Thu Feb  7 15:16:39 2013 [9601][5376945b-5fe3-4716-c9ee-50ddbc74fd6d][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+Thu Feb  7 15:16:39 2013 [9601][5376945b-5fe3-4716-c9ee-50ddbc74fd6d][FATAL] SugarPHPMailer encountered an error: Invalid address: 
+Thu Feb  7 17:03:13 2013 [12066][-none-][FATAL] SECURITY: User authentication for alba.naranjo failed
+Thu Feb  7 17:03:13 2013 [12066][-none-][FATAL] FAILED LOGIN:attempts[1] - alba.naranjo
+Thu Feb  7 17:37:37 2013 [12604][5dc88d0f-b4d4-3429-8fab-50ddbcba97e7][FATAL] Error: Se ha alcanzado el límite 1000 de consultas para el módulo Project.
+Fri Feb  8 07:27:49 2013 [12360][-none-][FATAL] SECURITY: User authentication for juan.ramirez failed
+Fri Feb  8 07:27:49 2013 [12360][-none-][FATAL] FAILED LOGIN:attempts[1] - juan.ramirez
+Fri Feb  8 07:28:27 2013 [12604][-none-][FATAL] SECURITY: User authentication for juan.ramirez failed
+Fri Feb  8 07:28:27 2013 [12604][-none-][FATAL] FAILED LOGIN:attempts[2] - juan.ramirez
+Fri Feb  8 07:28:54 2013 [12360][-none-][FATAL] SECURITY: User authentication for juan.ramirez failed
+Fri Feb  8 07:28:54 2013 [12360][-none-][FATAL] FAILED LOGIN:attempts[3] - juan.ramirez
+Fri Feb  8 07:38:14 2013 [12599][-none-][FATAL] SECURITY: User authentication for rdbr failed
+Fri Feb  8 07:38:14 2013 [12599][-none-][FATAL] FAILED LOGIN:attempts[1] - rdbr
+Fri Feb  8 07:40:08 2013 [12599][-none-][FATAL] SECURITY: User authentication for rdbr failed
+Fri Feb  8 07:40:08 2013 [12599][-none-][FATAL] FAILED LOGIN:attempts[2] - rdbr
+Fri Feb  8 07:40:53 2013 [15526][-none-][FATAL] SECURITY: User authentication for alvaro silgado failed
+Fri Feb  8 07:40:53 2013 [15526][-none-][FATAL] FAILED LOGIN:attempts[1] - alvaro silgado
+Fri Feb  8 07:40:53 2013 [15584][-none-][FATAL] SECURITY: User authentication for rdbr failed
+Fri Feb  8 07:40:53 2013 [15584][-none-][FATAL] FAILED LOGIN:attempts[3] - rdbr
+Fri Feb  8 07:45:44 2013 [15638][-none-][FATAL] SECURITY: User authentication for luis.aragon failed
+Fri Feb  8 07:45:44 2013 [15638][-none-][FATAL] FAILED LOGIN:attempts[1] - luis.aragon
+Fri Feb  8 07:57:37 2013 [16073][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 09:12:31 2013 [16795][4e758cdf-22f7-8fe3-9a52-50ddbc647b88][FATAL] IP Address mismatch: SESSION IP: 10.0.1.49 CLIENT IP: 10.0.3.227
+Fri Feb  8 09:14:34 2013 [16818][-none-][FATAL] SECURITY: User authentication for jefry.arias failed
+Fri Feb  8 09:14:34 2013 [16818][-none-][FATAL] FAILED LOGIN:attempts[1] - jefry.arias
+Fri Feb  8 09:14:51 2013 [16837][-none-][FATAL] SECURITY: User authentication for ruben.botero failed
+Fri Feb  8 09:14:51 2013 [16837][-none-][FATAL] FAILED LOGIN:attempts[1] - ruben.botero
+Fri Feb  8 09:19:10 2013 [16883][7fc5630c-0cb3-7cd2-6622-50ddbc38e463][FATAL]  Query Failed: INSERT INTO project_accounts(id, date_modified, deleted, account_id, project_id) VALUES('a4f0dea1-d8b9-08fc-139a-5115091b3bec', now(), 0, '32c67744-fa1d-e6a4-1e2a-50f8709c30fa', '9efd7f13-93d8-d09e-044a-511509193db8');: MySQL error 1146: Table 'crm.project_accounts' doesn't exist
+Fri Feb  8 09:28:14 2013 [16999][47e80942-0908-c32a-b880-50ddbc75901c][FATAL] Exception in Controller: String could not be parsed as XML
+Fri Feb  8 09:28:20 2013 [16790][47e80942-0908-c32a-b880-50ddbc75901c][FATAL] Exception in Controller: String could not be parsed as XML
+Fri Feb  8 09:37:14 2013 [16903][47e80942-0908-c32a-b880-50ddbc75901c][FATAL] Exception in Controller: String could not be parsed as XML
+Fri Feb  8 09:37:16 2013 [16903][47e80942-0908-c32a-b880-50ddbc75901c][FATAL] Exception in Controller: String could not be parsed as XML
+Fri Feb  8 09:37:21 2013 [17047][47e80942-0908-c32a-b880-50ddbc75901c][FATAL] Exception in Controller: String could not be parsed as XML
+Fri Feb  8 10:17:15 2013 [19708][-none-][FATAL] FAILED LOGIN:attempts[1] - juan.ramirez
+Fri Feb  8 10:27:58 2013 [20023][-none-][FATAL] FAILED LOGIN:attempts[1] - pnt
+Fri Feb  8 10:36:27 2013 [20045][-none-][FATAL] SECURITY: User authentication for fernando.pretel failed
+Fri Feb  8 10:36:27 2013 [20045][-none-][FATAL] FAILED LOGIN:attempts[1] - fernando.pretel
+Fri Feb  8 10:40:39 2013 [20243][-none-][FATAL] FAILED LOGIN:attempts[1] - 
+Fri Feb  8 10:40:55 2013 [20294][-none-][FATAL] SECURITY: User authentication for alvaro.silgado failed
+Fri Feb  8 10:40:55 2013 [20294][-none-][FATAL] FAILED LOGIN:attempts[2] - alvaro.silgado
+Fri Feb  8 11:00:25 2013 [20291][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: INSERT INTO project_accounts(id, date_modified, deleted, account_id, project_id) VALUES('774e3987-3ff0-1e0a-d2a8-5115218787b3', now(), 0, '21d792b6-9594-3f34-02f2-5113c292c735', '72c6c4dc-938a-8a36-9e8e-5115214ac566');: MySQL error 1146: Table 'crm.project_accounts' doesn't exist
+Fri Feb  8 11:23:20 2013 [20766][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 11:24:15 2013 [20844][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL] quotes for projects_quotes failed to load
+
+Fri Feb  8 11:24:15 2013 [20844][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL] error loading relationship quotes
+Fri Feb  8 11:42:38 2013 [21025][7fc5630c-0cb3-7cd2-6622-50ddbc38e463][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 11:42:56 2013 [21022][7fc5630c-0cb3-7cd2-6622-50ddbc38e463][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 11:43:44 2013 [21025][7fc5630c-0cb3-7cd2-6622-50ddbc38e463][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 11:49:25 2013 [21150][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 11:49:51 2013 [21217][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 11:50:39 2013 [21215][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 11:53:43 2013 [21333][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 11:55:37 2013 [21342][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 11:58:31 2013 [21355][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 12:00:36 2013 [21358][12d5cf67-4253-eafe-7074-50ddbc6f9ef1][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 12:01:01 2013 [21342][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 12:09:25 2013 [21519][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: (SELECT DATE(date_start) fecha, tipo, description, lugar, name, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60)*0 as valor 
+            FROM meetings  
+            WHERE assigned_user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND date_start BETWEEN '2013-02-01' AND '2013-02-28' AND deleted = 0 
+                AND suma = 1 AND status = 'Held' )
+        union
+        (SELECT DATE(date_start) fecha, tipo lugar, name,  
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60)*0 as valor 
+            FROM meetings  m, meetings_users rel
+            WHERE rel.user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND m.date_start BETWEEN '2013-02-01' AND '2013-02-28' AND m.deleted = 0 
+                AND m.suma = 1 AND m.status = 'Held' AND m.id = rel.meeting_id )    
+        union
+        (SELECT DATE(date_start) fecha, concat('Llamada','') lugar, name, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60)*0 as valor 
+            FROM calls 
+            WHERE assigned_user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND date_start BETWEEN '2013-02-01' AND '2013-02-28' AND deleted = 0 
+                 AND status = 'Held' )            
+         union
+         (SELECT h.fecha_ejecucion fecha, p.name as lugar, t.name name, 
+            h.horas as duracion, h.valor as valor 
+            FROM horas_causadas h, project_task t, project p  
+            WHERE t.id = h.id_tarea  
+            AND p.id = t.project_id 
+            AND h.fecha_ejecucion BETWEEN '2013-02-01' AND '2013-02-28' AND t.assigned_user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' 
+            AND p.deleted = 0 AND t.deleted = 0  AND h.deleted = 0 ) 
+            
+            ORDER BY fecha: MySQL error 1054: Unknown column 'lugar' in 'field list'
+Fri Feb  8 12:13:19 2013 [21595][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: (SELECT DATE(date_start) fecha, description, tipo lugar, name, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60)*0 as valor 
+            FROM meetings  
+            WHERE assigned_user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND date_start BETWEEN '2013-02-01' AND '2013-02-28' AND deleted = 0 
+                AND suma = 1 AND status = 'Held' )
+        union
+        (SELECT DATE(date_start) fecha, description, tipo lugar, name,  
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60)*0 as valor 
+            FROM meetings  m, meetings_users rel
+            WHERE rel.user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND m.date_start BETWEEN '2013-02-01' AND '2013-02-28' AND m.deleted = 0 
+                AND m.suma = 1 AND m.status = 'Held' AND m.id = rel.meeting_id )    
+        union
+        (SELECT DATE(date_start) fecha, description, concat('Llamada','') lugar, name, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60)*0 as valor 
+            FROM calls 
+            WHERE assigned_user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND date_start BETWEEN '2013-02-01' AND '2013-02-28' AND deleted = 0 
+                 AND status = 'Held' )            
+         union
+         (SELECT h.fecha_ejecucion fecha, description, p.name as lugar, t.name name, 
+            h.horas as duracion, h.valor as valor 
+            FROM horas_causadas h, project_task t, project p  
+            WHERE t.id = h.id_tarea  
+            AND p.id = t.project_id 
+            AND h.fecha_ejecucion BETWEEN '2013-02-01' AND '2013-02-28' AND t.assigned_user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' 
+            AND p.deleted = 0 AND t.deleted = 0  AND h.deleted = 0 ) 
+            
+            ORDER BY fecha: MySQL error 1052: Column 'description' in field list is ambiguous
+Fri Feb  8 12:13:24 2013 [21333][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: (SELECT DATE(date_start) fecha, description, tipo lugar, name, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60)*0 as valor 
+            FROM meetings  
+            WHERE assigned_user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND date_start BETWEEN '2013-02-01' AND '2013-02-28' AND deleted = 0 
+                AND suma = 1 AND status = 'Held' )
+        union
+        (SELECT DATE(date_start) fecha, description, tipo lugar, name,  
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60)*0 as valor 
+            FROM meetings  m, meetings_users rel
+            WHERE rel.user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND m.date_start BETWEEN '2013-02-01' AND '2013-02-28' AND m.deleted = 0 
+                AND m.suma = 1 AND m.status = 'Held' AND m.id = rel.meeting_id )    
+        union
+        (SELECT DATE(date_start) fecha, description, concat('Llamada','') lugar, name, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60)*0 as valor 
+            FROM calls 
+            WHERE assigned_user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND date_start BETWEEN '2013-02-01' AND '2013-02-28' AND deleted = 0 
+                 AND status = 'Held' )            
+         union
+         (SELECT h.fecha_ejecucion fecha, description, p.name as lugar, t.name name, 
+            h.horas as duracion, h.valor as valor 
+            FROM horas_causadas h, project_task t, project p  
+            WHERE t.id = h.id_tarea  
+            AND p.id = t.project_id 
+            AND h.fecha_ejecucion BETWEEN '2013-02-01' AND '2013-02-28' AND t.assigned_user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' 
+            AND p.deleted = 0 AND t.deleted = 0  AND h.deleted = 0 ) 
+            
+            ORDER BY fecha: MySQL error 1052: Column 'description' in field list is ambiguous
+Fri Feb  8 12:15:42 2013 [21590][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: (SELECT DATE(date_start) fecha, tipo lugar, name, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60)*0 as valor 
+            FROM meetings  
+            WHERE assigned_user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND date_start BETWEEN '2013-02-01' AND '2013-02-28' AND deleted = 0 
+                AND suma = 1 AND status = 'Held' )
+        union
+        (SELECT DATE(date_start) fecha, tipo lugar, name,  
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60)*0 as valor 
+            FROM meetings  m, meetings_users rel
+            WHERE rel.user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND m.date_start BETWEEN '2013-02-01' AND '2013-02-28' AND m.deleted = 0 
+                AND m.suma = 1 AND m.status = 'Held' AND m.id = rel.meeting_id )    
+        union
+        (SELECT DATE(date_start) fecha, concat('Llamada','') lugar, name, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60)*0 as valor 
+            FROM calls 
+            WHERE assigned_user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND date_start BETWEEN '2013-02-01' AND '2013-02-28' AND deleted = 0 
+                 AND status = 'Held' )            
+         union
+         (SELECT h.fecha_ejecucion fecha, p.tipo as tipo, t.name name, 
+            h.horas as duracion, h.valor as valor 
+            FROM horas_causadas h, project_task t, project p  
+            WHERE t.id = h.id_tarea  
+            AND p.id = t.project_id 
+            AND h.fecha_ejecucion BETWEEN '2013-02-01' AND '2013-02-28' AND t.assigned_user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' 
+            AND p.deleted = 0 AND t.deleted = 0  AND h.deleted = 0 ) 
+            
+            ORDER BY fecha: MySQL error 1054: Unknown column 'p.tipo' in 'field list'
+Fri Feb  8 12:16:18 2013 [21550][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: (SELECT DATE(date_start) fecha, tipo lugar, name, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60)*0 as valor 
+            FROM meetings  
+            WHERE assigned_user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND date_start BETWEEN '2013-02-01' AND '2013-02-28' AND deleted = 0 
+                AND suma = 1 AND status = 'Held' )
+        union
+        (SELECT DATE(date_start) fecha, tipo lugar, name,  
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60)*0 as valor 
+            FROM meetings  m, meetings_users rel
+            WHERE rel.user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND m.date_start BETWEEN '2013-02-01' AND '2013-02-28' AND m.deleted = 0 
+                AND m.suma = 1 AND m.status = 'Held' AND m.id = rel.meeting_id )    
+        union
+        (SELECT DATE(date_start) fecha, concat('Llamada','') lugar, name, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion, 
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60)*0 as valor 
+            FROM calls 
+            WHERE assigned_user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' AND date_start BETWEEN '2013-02-01' AND '2013-02-28' AND deleted = 0 
+                 AND status = 'Held' )            
+         union
+         (SELECT h.fecha_ejecucion fecha, p.tipo as tipo, t.name name, 
+            h.horas as duracion, h.valor as valor 
+            FROM horas_causadas h, project_task t, project p  
+            WHERE t.id = h.id_tarea  
+            AND p.id = t.project_id 
+            AND h.fecha_ejecucion BETWEEN '2013-02-01' AND '2013-02-28' AND t.assigned_user_id = 'eb51c649-7eb7-9144-6a8d-50e5fbc06bc8' 
+            AND p.deleted = 0 AND t.deleted = 0  AND h.deleted = 0 ) 
+            
+            ORDER BY fecha: MySQL error 1054: Unknown column 'p.tipo' in 'field list'
+Fri Feb  8 12:18:30 2013 [21668][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 12:19:15 2013 [21646][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 12:19:59 2013 [21687][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 12:25:41 2013 [21843][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 13:14:01 2013 [21898][-none-][FATAL] SECURITY: User authentication for pnt failed
+Fri Feb  8 13:14:01 2013 [21898][-none-][FATAL] FAILED LOGIN:attempts[1] - pnt
+Fri Feb  8 13:22:39 2013 [22341][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario=, fm= WHERE id=1;: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm= WHERE id=1' at line 1
+Fri Feb  8 13:22:42 2013 [21898][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario=, fm= WHERE id=1;: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm= WHERE id=1' at line 1
+Fri Feb  8 13:22:44 2013 [22287][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario=, fm= WHERE id=;: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm= WHERE id=' at line 1
+Fri Feb  8 13:32:24 2013 [22482][917ba481-64d2-3c31-3ec1-50ddbc16d7a0][FATAL] Exception in Controller: String could not be parsed as XML
+Fri Feb  8 13:33:54 2013 [22562][917ba481-64d2-3c31-3ec1-50ddbc16d7a0][FATAL] Error conectando MS-SQL
+Fri Feb  8 13:33:54 2013 [22552][16121a84-0634-acc2-4d7b-50ddbc036c5f][FATAL] Error conectando MS-SQL
+Fri Feb  8 13:34:15 2013 [22552][16121a84-0634-acc2-4d7b-50ddbc036c5f][FATAL] Error conectando MS-SQL
+Fri Feb  8 13:35:20 2013 [22574][16121a84-0634-acc2-4d7b-50ddbc036c5f][FATAL] Exception in Controller: String could not be parsed as XML
+Fri Feb  8 13:35:58 2013 [22573][16121a84-0634-acc2-4d7b-50ddbc036c5f][FATAL] Error conectando MS-SQL
+Fri Feb  8 13:41:33 2013 [22761][917ba481-64d2-3c31-3ec1-50ddbc16d7a0][FATAL] Error conectando MS-SQL
+Fri Feb  8 13:44:09 2013 [22799][917ba481-64d2-3c31-3ec1-50ddbc16d7a0][FATAL] Error conectando MS-SQL
+Fri Feb  8 13:53:35 2013 [23139][47dcd634-0f94-55a3-66e1-50ddbcafb1d3][FATAL] Error conectando MS-SQL
+Fri Feb  8 13:55:27 2013 [23169][47dcd634-0f94-55a3-66e1-50ddbcafb1d3][FATAL] Error conectando MS-SQL
+Fri Feb  8 13:56:39 2013 [23187][47dcd634-0f94-55a3-66e1-50ddbcafb1d3][FATAL] Error conectando MS-SQL
+Fri Feb  8 13:57:32 2013 [23230][47dcd634-0f94-55a3-66e1-50ddbcafb1d3][FATAL] Error conectando MS-SQL
+Fri Feb  8 14:00:00 2013 [23303][47dcd634-0f94-55a3-66e1-50ddbcafb1d3][FATAL] Error conectando MS-SQL
+Fri Feb  8 14:00:36 2013 [23266][d615066d-68c1-3901-0940-50ddbc05a88c][FATAL] Error conectando MS-SQL
+Fri Feb  8 14:00:59 2013 [23313][d615066d-68c1-3901-0940-50ddbc05a88c][FATAL] Error conectando MS-SQL
+Fri Feb  8 14:11:59 2013 [23513][47dcd634-0f94-55a3-66e1-50ddbcafb1d3][FATAL] Error conectando MS-SQL
+Fri Feb  8 14:12:18 2013 [23537][47dcd634-0f94-55a3-66e1-50ddbcafb1d3][FATAL] Error conectando MS-SQL
+Fri Feb  8 14:13:23 2013 [23539][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario=, fm= WHERE id=;: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm= WHERE id=' at line 1
+Fri Feb  8 14:14:25 2013 [23584][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario=, fm= WHERE id=1: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm= WHERE id=1' at line 1
+Fri Feb  8 14:15:07 2013 [23593][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario=, fm= WHERE id=1: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm= WHERE id=1' at line 1
+Fri Feb  8 14:15:12 2013 [23593][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario=, fm= WHERE id=: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm= WHERE id=' at line 1
+Fri Feb  8 14:15:14 2013 [23593][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario=, fm= WHERE id=: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm= WHERE id=' at line 1
+Fri Feb  8 14:15:15 2013 [23593][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario=, fm= WHERE id=: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm= WHERE id=' at line 1
+Fri Feb  8 14:15:16 2013 [23593][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario=, fm= WHERE id=: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm= WHERE id=' at line 1
+Fri Feb  8 14:15:25 2013 [23597][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario=, fm= WHERE id=: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm= WHERE id=' at line 1
+Fri Feb  8 14:20:51 2013 [23511][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario = , fm =  WHERE id = : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm =  WHERE id =' at line 1
+Fri Feb  8 14:20:54 2013 [23511][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario = , fm =  WHERE id = : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm =  WHERE id =' at line 1
+Fri Feb  8 14:21:54 2013 [23438][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario = , fm =  WHERE id = : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm =  WHERE id =' at line 1
+Fri Feb  8 14:22:18 2013 [23511][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario = , fm =  WHERE id = : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm =  WHERE id =' at line 1
+Fri Feb  8 14:26:39 2013 [23711][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario = , fm =  WHERE id = : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm =  WHERE id =' at line 1
+Fri Feb  8 14:26:42 2013 [23711][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario = , fm =  WHERE id = : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm =  WHERE id =' at line 1
+Fri Feb  8 14:27:29 2013 [23511][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario = , fm =  WHERE id = : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm =  WHERE id =' at line 1
+Fri Feb  8 14:27:42 2013 [23726][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario = , fm =  WHERE id = : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm =  WHERE id =' at line 1
+Fri Feb  8 14:28:22 2013 [23779][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario = , fm =  WHERE id = : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm =  WHERE id =' at line 1
+Fri Feb  8 14:37:27 2013 [23904][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario = , fm =  WHERE id = : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm =  WHERE id =' at line 1
+Fri Feb  8 14:37:30 2013 [23880][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL] Error conectando MS-SQL
+Fri Feb  8 14:38:23 2013 [23899][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET salario = , fm =  WHERE nombre = : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' fm =  WHERE nombre =' at line 1
+Fri Feb  8 14:38:24 2013 [23882][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL] Error conectando MS-SQL
+Fri Feb  8 14:59:55 2013 [24272][8a4b9daa-8cd7-fc40-35c4-50ddbc0791e4][FATAL] Error conectando MS-SQL
+Fri Feb  8 15:13:26 2013 [24504][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET fm = 2.651 WHERE nombre = Auxiliar: MySQL error 1054: Unknown column 'Auxiliar' in 'where clause'
+Fri Feb  8 15:21:43 2013 [24677][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: UPDATE escalafon SET fm = 2.651 WHERE id = : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Fri Feb  8 15:50:44 2013 [25403][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 15:51:57 2013 [25521][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 15:53:20 2013 [25552][3b3a0aab-4f23-3a5b-e97e-50ddbc48bf62][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 16:20:32 2013 [26041][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 16:20:55 2013 [25841][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 16:22:48 2013 [25873][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 16:23:24 2013 [25841][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 16:26:12 2013 [25864][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 16:27:09 2013 [25945][90cd4737-10bc-79d6-9faf-50ddbc1bcb59][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php
+Fri Feb  8 16:34:20 2013 [26441][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: (SELECT m.id, DATE(date_start) fecha, assigned_user_id usuario_id,  
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion 
+            FROM meetings 
+            WHERE date_start BETWEEN '2013-01-01' AND '2013-01-31 23:59:59' AND deleted = 0  AND suma = 1 AND status = 'Held'   AND assigned_user_id = '5eb8f92e-9109-cf77-b5d4-50ddbcf305a9' )
+        union
+        (SELECT m.id, DATE(date_start) fecha,  rel.user_id usuario_id,  
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion 
+             
+            FROM meetings  m, meetings_users rel
+            WHERE  m.date_start BETWEEN '2013-01-01' AND '2013-01-31 23:59:59' AND m.deleted = 0 
+                AND m.suma = 1 AND m.status = 'Held' AND m.id = rel.meeting_id  AND rel.user_id = '5eb8f92e-9109-cf77-b5d4-50ddbcf305a9'  )
+             
+        union
+        (SELECT c.id, DATE(date_start) fecha, assigned_user_id usuario_id,  
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion 
+            FROM calls  
+            WHERE date_start BETWEEN '2013-01-01' AND '2013-01-31 23:59:59' AND deleted = 0 AND status = 'Held'  AND assigned_user_id = '5eb8f92e-9109-cf77-b5d4-50ddbcf305a9' )            
+         union
+         (SELECT h.id, h.fecha_ejecucion fecha, t.assigned_user_id usuario_id,  
+            h.horas as duracion 
+            FROM horas_causadas h, project_task t, project p 
+            WHERE t.id = h.id_tarea 
+            AND h.fecha_ejecucion BETWEEN '2013-01-01' AND '2013-01-31 23:59:59'  
+            AND p.deleted = 0 AND h.deleted = 0 AND t.deleted = 0  
+            AND p.id = t.project_id  AND t.assigned_user_id = '5eb8f92e-9109-cf77-b5d4-50ddbcf305a9' ) 
+            ORDER BY usuario_id, fecha : MySQL error 1054: Unknown column 'm.id' in 'field list'
+Fri Feb  8 16:34:24 2013 [26489][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: (SELECT m.id, DATE(date_start) fecha, assigned_user_id usuario_id,  
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion 
+            FROM meetings 
+            WHERE date_start BETWEEN '2013-01-01' AND '2013-01-31 23:59:59' AND deleted = 0  AND suma = 1 AND status = 'Held'   AND assigned_user_id = '5eb8f92e-9109-cf77-b5d4-50ddbcf305a9' )
+        union
+        (SELECT m.id, DATE(date_start) fecha,  rel.user_id usuario_id,  
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion 
+             
+            FROM meetings  m, meetings_users rel
+            WHERE  m.date_start BETWEEN '2013-01-01' AND '2013-01-31 23:59:59' AND m.deleted = 0 
+                AND m.suma = 1 AND m.status = 'Held' AND m.id = rel.meeting_id  AND rel.user_id = '5eb8f92e-9109-cf77-b5d4-50ddbcf305a9'  )
+             
+        union
+        (SELECT c.id, DATE(date_start) fecha, assigned_user_id usuario_id,  
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion 
+            FROM calls  
+            WHERE date_start BETWEEN '2013-01-01' AND '2013-01-31 23:59:59' AND deleted = 0 AND status = 'Held'  AND assigned_user_id = '5eb8f92e-9109-cf77-b5d4-50ddbcf305a9' )            
+         union
+         (SELECT h.id, h.fecha_ejecucion fecha, t.assigned_user_id usuario_id,  
+            h.horas as duracion 
+            FROM horas_causadas h, project_task t, project p 
+            WHERE t.id = h.id_tarea 
+            AND h.fecha_ejecucion BETWEEN '2013-01-01' AND '2013-01-31 23:59:59'  
+            AND p.deleted = 0 AND h.deleted = 0 AND t.deleted = 0  
+            AND p.id = t.project_id  AND t.assigned_user_id = '5eb8f92e-9109-cf77-b5d4-50ddbcf305a9' ) 
+            ORDER BY usuario_id, fecha : MySQL error 1054: Unknown column 'm.id' in 'field list'
+Fri Feb  8 16:34:33 2013 [26501][eb51c649-7eb7-9144-6a8d-50e5fbc06bc8][FATAL]  Query Failed: (SELECT m.id, DATE(date_start) fecha, assigned_user_id usuario_id,  
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion 
+            FROM meetings 
+            WHERE date_start BETWEEN '2013-01-01' AND '2013-01-31 23:59:59' AND deleted = 0  AND suma = 1 AND status = 'Held'   AND assigned_user_id = '5eb8f92e-9109-cf77-b5d4-50ddbcf305a9' )
+        union
+        (SELECT m.id, DATE(date_start) fecha,  rel.user_id usuario_id,  
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion 
+             
+            FROM meetings  m, meetings_users rel
+            WHERE  m.date_start BETWEEN '2013-01-01' AND '2013-01-31 23:59:59' AND m.deleted = 0 
+                AND m.suma = 1 AND m.status = 'Held' AND m.id = rel.meeting_id  AND rel.user_id = '5eb8f92e-9109-cf77-b5d4-50ddbcf305a9'  )
+             
+        union
+        (SELECT c.id, DATE(date_start) fecha, assigned_user_id usuario_id,  
+            ((TIMESTAMPDIFF(MINUTE, date_start,date_end))/60) as duracion 
+            FROM calls  
+            WHERE date_start BETWEEN '2013-01-01' AND '2013-01-31 23:59:59' AND deleted = 0 AND status = 'Held'  AND assigned_user_id = '5eb8f92e-9109-cf77-b5d4-50ddbcf305a9' )            
+         union
+         (SELECT h.id, h.fecha_ejecucion fecha, t.assigned_user_id usuario_id,  
+            h.horas as duracion 
+            FROM horas_causadas h, project_task t, project p 
+            WHERE t.id = h.id_tarea 
+            AND h.fecha_ejecucion BETWEEN '2013-01-01' AND '2013-01-31 23:59:59'  
+            AND p.deleted = 0 AND h.deleted = 0 AND t.deleted = 0  
+            AND p.id = t.project_id  AND t.assigned_user_id = '5eb8f92e-9109-cf77-b5d4-50ddbcf305a9' ) 
+            ORDER BY usuario_id, fecha : MySQL error 1054: Unknown column 'm.id' in 'field list'
+Fri Feb  8 16:35:36 2013 [26543][-none-][FATAL] SECURITY: User authentication for luis.aragon failed
+Fri Feb  8 16:35:36 2013 [26543][-none-][FATAL] FAILED LOGIN:attempts[1] - luis.aragon
+Fri Feb  8 16:43:02 2013 [26620][ca30c30d-e0cc-87ab-9ae7-50ddbc0552f1][FATAL] Failed to load original or custom subpanel data for  in modules//metadata/subpanels/.php

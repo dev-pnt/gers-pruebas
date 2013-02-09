@@ -1,0 +1,44 @@
+<?php
+// created: 2012-12-14 12:24:41
+$subpanel_layout['list_fields'] = array (
+  'name' => 
+  array (
+    'vname' => 'LBL_LIST_NAME',
+    'widget_class' => 'SubPanelDetailViewLink',
+    'width' => '30%',
+    'default' => true,
+  ),
+  'date_start' => 
+  array (
+    'vname' => 'LBL_DATE_START',
+    'width' => '15%',
+    'default' => true,
+  ),
+  'estimated_effort' => 
+  array (
+    'type' => 'int',
+    'vname' => 'LBL_ESTIMATED_EFFORT',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'anticipos' => 
+  array (
+    'type' => 'float',
+    'vname' => 'LBL_ANTICIPOS',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'actual_effort' => 
+  array (
+    'type' => 'int',
+    'vname' => 'LBL_ACTUAL_EFFORT',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'date_finish' => 
+  array (
+    'vname' => 'LBL_DATE_FINISH',
+    'width' => '15%',
+    'default' => true,
+  ),
+);

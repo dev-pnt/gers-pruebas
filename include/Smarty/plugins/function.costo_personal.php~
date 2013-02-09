@@ -1,0 +1,40 @@
+<?php
+
+function smarty_function_costo_personal($params, &$smarty)
+{
+	$idcot = $params->id;
+
+	global $db;
+
+	$stcot = "SELECT project_id FROM projects_opportunities WHERE opportunity_id = '$idcot'";
+	$res = $db->query($stcot);
+	$data = $db->fetchByAssoc($res);
+	$idp = $data['project_id'];
+	$st = "SELECT * FROM horas_causadas WHERE id_proyecyo = '$idp'";
+	$ret = $db->query($st);
+	
+		
+	$html = "
+	<table>
+	<tr>
+	<td>Escalafon</td>
+	<td>Salario</td>
+	<td>Hora/Mes</td>
+	<td>Factor Multiplicador</td>
+	<td>Costo</td>
+	<td>Valor Total</td>
+	<tr>";
+	while($datah = $db->fetchByAssoc($ret)){
+		$html .= "<tr>";
+		$html .= "<td>".$datah['']."</td>";
+		$html .= "<td>".$datah['']."</td>";
+		$html .= "<td>".$datah['horas']."</td>";
+		$html .= "<td>".$datah['']."</td>";
+		$html .= "<td>".$datah['']."</td>";
+		$html .= "<td>".$datah['']."</td>";
+		$html .= "<tr>";
+}
+	$html .= "</table>";
+	return $params->id;
+}
+?>
