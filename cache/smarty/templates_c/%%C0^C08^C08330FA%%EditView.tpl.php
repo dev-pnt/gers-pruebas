@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2013-02-08 18:07:38
+<?php /* Smarty version 2.6.11, created on 2013-02-14 09:58:04
          compiled from cache/modules/Notes/EditView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/Notes/EditView.tpl', 44, false),array('function', 'counter', 'cache/modules/Notes/EditView.tpl', 50, false),array('function', 'sugar_getimagepath', 'cache/modules/Notes/EditView.tpl', 53, false),array('function', 'sugar_translate', 'cache/modules/Notes/EditView.tpl', 56, false),array('function', 'html_options', 'cache/modules/Notes/EditView.tpl', 109, false),array('function', 'sugar_getscript', 'cache/modules/Notes/EditView.tpl', 359, false),array('modifier', 'default', 'cache/modules/Notes/EditView.tpl', 49, false),array('modifier', 'strip_semicolon', 'cache/modules/Notes/EditView.tpl', 67, false),)), $this); ?>
@@ -314,7 +314,7 @@ value='<?php echo $this->_tpl_vars['value']; ?>
 <?php echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
 
 
-<script type="text/javascript" src='include/SugarFields/Fields/File/SugarFieldFile.js?v=NRcVdvMAzosjsfxaQyXRJg'></script>
+<script type="text/javascript" src='include/SugarFields/Fields/File/SugarFieldFile.js?v=ROZ_qutuQib1koxOuyhIyw'></script>
 <?php if (! empty ( $this->_tpl_vars['fields']['filename']['value'] )):  $this->assign('showRemove', true);  else:  $this->assign('showRemove', false);  endif;  $this->assign('noChange', false); ?>
 <input type="hidden" name="deleteAttachment" value="0">
 <input type="hidden" name="<?php echo $this->_tpl_vars['fields']['filename']['name']; ?>

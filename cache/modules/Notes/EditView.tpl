@@ -213,7 +213,7 @@ value='{$value}' title=''      >
 <td valign="top" width='37.5%' colspan='3'>
 {counter name="panelFieldCount"}
 
-<script type="text/javascript" src='include/SugarFields/Fields/File/SugarFieldFile.js?v=NRcVdvMAzosjsfxaQyXRJg'></script>
+<script type="text/javascript" src='include/SugarFields/Fields/File/SugarFieldFile.js?v=ROZ_qutuQib1koxOuyhIyw'></script>
 {if !empty($fields.filename.value) }
 {assign var=showRemove value=true}
 {else}

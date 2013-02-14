@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2013-02-08 16:58:14
+<?php /* Smarty version 2.6.11, created on 2013-02-14 08:48:22
          compiled from include/SugarFields/Fields/Currency/ListView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_fetch', 'include/SugarFields/Fields/Currency/ListView.tpl', 38, false),array('function', 'sugar_currency_format', 'include/SugarFields/Fields/Currency/ListView.tpl', 40, false),)), $this); ?>

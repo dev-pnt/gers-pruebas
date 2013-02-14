@@ -290,8 +290,8 @@ SyncToHidden(e.result.raw.key);
 <td valign="top" width='37.5%' colspan='3'>
 {counter name="panelFieldCount"}
 
-<script type="text/javascript" src='cache/include/externalAPI.cache.js?v=DpWyG6r4gKDlSMdb_ukoyw'></script>
-<script type="text/javascript" src='include/SugarFields/Fields/File/SugarFieldFile.js?v=DpWyG6r4gKDlSMdb_ukoyw'></script>
+<script type="text/javascript" src='cache/include/externalAPI.cache.js?v=YBcqLmFMpeAFtijwDTgSlw'></script>
+<script type="text/javascript" src='include/SugarFields/Fields/File/SugarFieldFile.js?v=YBcqLmFMpeAFtijwDTgSlw'></script>
 {if !empty($fields.filename.value) }
 {assign var=showRemove value=true}
 {else}

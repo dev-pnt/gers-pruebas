@@ -566,6 +566,34 @@ class="yui-navset detailview_tabs"
 <tr>
 {counter name="fieldsUsed"}
 <td width='12.5%' scope="col">
+{if !$fields.costo_cotizacion_html.hidden}
+{capture name="label" assign="label"}{sugar_translate label='LBL_COSTO_COTIZACION_HTML' module='Opportunities'}{/capture}
+{$label|strip_semicolon}:
+{/if}
+</td>
+<td width='37.5%'  >
+{if !$fields.costo_cotizacion_html.hidden}
+{counter name="panelFieldCount"}
+<span id="costo_cotizacion_html" class="sugar_field">{costo_cotizacion id=$fields.id.value module="cotizacion"}</span>
+{/if}
+</td>
+{counter name="fieldsUsed"}
+<td width='12.5%' scope="col">
+&nbsp;
+</td>
+<td width='37.5%'  >
+</td>
+</tr>
+{/capture}
+{if $fieldsUsed > 0 && $fieldsUsed != $fieldsHidden}
+{$tableRow}
+{/if}
+{counter name="fieldsUsed" start=0 print=false assign="fieldsUsed"}
+{counter name="fieldsHidden" start=0 print=false assign="fieldsHidden"}
+{capture name="tr" assign="tableRow"}
+<tr>
+{counter name="fieldsUsed"}
+<td width='12.5%' scope="col">
 {if !$fields.descuento.hidden}
 {capture name="label" assign="label"}{sugar_translate label='LBL_DESCUENTO' module='Opportunities'}{/capture}
 {$label|strip_semicolon}:

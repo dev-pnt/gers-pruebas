@@ -1,5 +1,5 @@
 <?php
-// created: 2013-02-08 19:47:01
+// created: 2013-02-14 11:09:36
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Fecha de Creación',
@@ -205,4 +205,5 @@ $mod_strings = array (
   'LBL_DEPARTAMENTO_COSTOS' => 'Departamento que asigna costos',
   'LBL_SEGUIMIENTO_MERCADEO' => 'Seguimiento Mercadeo',
   'LBL_VERSION' => 'Revisión',
+  'LBL_COSTO_COTIZACION_HTML' => 'Valor de la cotización + 2%',
 );

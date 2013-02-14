@@ -51,7 +51,7 @@ GROUP BY t281.f281_id, t281.f281_descripcion,
 $res = mssql_query($sql);
 // 7  Costos
 // 41 Facturacion
-
+echo "<hr/><pre>".$sql. "</pre><br/>";
 
 echo "<pre>"; 
 while ($fila = mssql_fetch_assoc($res)){

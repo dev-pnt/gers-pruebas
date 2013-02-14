@@ -261,7 +261,7 @@ class="yui-navset detailview_tabs"
 {counter name="panelFieldCount"}
 
 
-{assign var="value" value=23-01-2013 }
+{assign var="value" value=12/06/2012 }
 <span class="sugar_field" id="{$fields.date_entered.name}">{$value}</span>
 {/if}
 </td>

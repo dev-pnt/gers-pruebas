@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2013-02-08 17:00:46
+<?php /* Smarty version 2.6.11, created on 2013-02-14 09:12:50
          compiled from modules/Calendar/tpls/main.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'counter', 'modules/Calendar/tpls/main.tpl', 98, false),)), $this); ?>

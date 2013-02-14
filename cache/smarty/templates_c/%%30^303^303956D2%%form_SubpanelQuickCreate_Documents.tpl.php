@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2013-02-08 17:10:31
+<?php /* Smarty version 2.6.11, created on 2013-02-14 10:23:07
          compiled from cache/modules/Documents/form_SubpanelQuickCreate_Documents.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/Documents/form_SubpanelQuickCreate_Documents.tpl', 47, false),array('function', 'counter', 'cache/modules/Documents/form_SubpanelQuickCreate_Documents.tpl', 53, false),array('function', 'sugar_translate', 'cache/modules/Documents/form_SubpanelQuickCreate_Documents.tpl', 59, false),array('function', 'html_options', 'cache/modules/Documents/form_SubpanelQuickCreate_Documents.tpl', 73, false),array('function', 'sugar_getimagepath', 'cache/modules/Documents/form_SubpanelQuickCreate_Documents.tpl', 101, false),array('function', 'sugar_getimage', 'cache/modules/Documents/form_SubpanelQuickCreate_Documents.tpl', 317, false),array('function', 'sugar_image', 'cache/modules/Documents/form_SubpanelQuickCreate_Documents.tpl', 332, false),array('modifier', 'strip_semicolon', 'cache/modules/Documents/form_SubpanelQuickCreate_Documents.tpl', 60, false),array('modifier', 'lookup', 'cache/modules/Documents/form_SubpanelQuickCreate_Documents.tpl', 98, false),array('modifier', 'count', 'cache/modules/Documents/form_SubpanelQuickCreate_Documents.tpl', 178, false),array('modifier', 'default', 'cache/modules/Documents/form_SubpanelQuickCreate_Documents.tpl', 497, false),)), $this); ?>
@@ -367,8 +367,8 @@ SyncToHidden(e.result.raw.key);
 <?php echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
 
 
-<script type="text/javascript" src='cache/include/externalAPI.cache.js?v=DpWyG6r4gKDlSMdb_ukoyw'></script>
-<script type="text/javascript" src='include/SugarFields/Fields/File/SugarFieldFile.js?v=DpWyG6r4gKDlSMdb_ukoyw'></script>
+<script type="text/javascript" src='cache/include/externalAPI.cache.js?v=YBcqLmFMpeAFtijwDTgSlw'></script>
+<script type="text/javascript" src='include/SugarFields/Fields/File/SugarFieldFile.js?v=YBcqLmFMpeAFtijwDTgSlw'></script>
 <?php if (! empty ( $this->_tpl_vars['fields']['filename']['value'] )):  $this->assign('showRemove', true);  else:  $this->assign('showRemove', false);  endif;  if (! empty ( $this->_tpl_vars['fields']['filename']['value'] )):  $this->assign('showRemove', true);  $this->assign('noChange', true);  else:  $this->assign('noChange', false);  endif; ?>
 <input type="hidden" name="deleteAttachment" value="0">
 <input type="hidden" name="<?php echo $this->_tpl_vars['fields']['filename']['name']; ?>

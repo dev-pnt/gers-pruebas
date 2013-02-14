@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.11, created on 2013-02-08 17:18:19
+<?php /* Smarty version 2.6.11, created on 2013-02-14 10:50:37
          compiled from cache/modules/Opportunities/DetailView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/Opportunities/DetailView.tpl', 34, false),array('function', 'sugar_translate', 'cache/modules/Opportunities/DetailView.tpl', 41, false),array('function', 'counter', 'cache/modules/Opportunities/DetailView.tpl', 51, false),array('function', 'sugar_ajax_url', 'cache/modules/Opportunities/DetailView.tpl', 89, false),array('function', 'sugar_number_format', 'cache/modules/Opportunities/DetailView.tpl', 538, false),array('function', 'sugar_getimagepath', 'cache/modules/Opportunities/DetailView.tpl', 657, false),array('function', 'multienum_to_array', 'cache/modules/Opportunities/DetailView.tpl', 683, false),array('function', 'costo_personal', 'cache/modules/Opportunities/DetailView.tpl', 738, false),array('function', 'costo_categorias', 'cache/modules/Opportunities/DetailView.tpl', 769, false),array('function', 'costo_gastos', 'cache/modules/Opportunities/DetailView.tpl', 797, false),array('function', 'sugar_getjspath', 'cache/modules/Opportunities/DetailView.tpl', 823, false),array('modifier', 'strip_semicolon', 'cache/modules/Opportunities/DetailView.tpl', 61, false),array('modifier', 'escape', 'cache/modules/Opportunities/DetailView.tpl', 594, false),array('modifier', 'url2html', 'cache/modules/Opportunities/DetailView.tpl', 594, false),array('modifier', 'nl2br', 'cache/modules/Opportunities/DetailView.tpl', 594, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/Opportunities/DetailView.tpl', 34, false),array('function', 'sugar_translate', 'cache/modules/Opportunities/DetailView.tpl', 41, false),array('function', 'counter', 'cache/modules/Opportunities/DetailView.tpl', 51, false),array('function', 'sugar_ajax_url', 'cache/modules/Opportunities/DetailView.tpl', 89, false),array('function', 'sugar_number_format', 'cache/modules/Opportunities/DetailView.tpl', 538, false),array('function', 'costo_cotizacion', 'cache/modules/Opportunities/DetailView.tpl', 577, false),array('function', 'sugar_getimagepath', 'cache/modules/Opportunities/DetailView.tpl', 685, false),array('function', 'multienum_to_array', 'cache/modules/Opportunities/DetailView.tpl', 711, false),array('function', 'costo_personal', 'cache/modules/Opportunities/DetailView.tpl', 766, false),array('function', 'costo_categorias', 'cache/modules/Opportunities/DetailView.tpl', 797, false),array('function', 'costo_gastos', 'cache/modules/Opportunities/DetailView.tpl', 825, false),array('function', 'sugar_getjspath', 'cache/modules/Opportunities/DetailView.tpl', 851, false),array('modifier', 'strip_semicolon', 'cache/modules/Opportunities/DetailView.tpl', 61, false),array('modifier', 'escape', 'cache/modules/Opportunities/DetailView.tpl', 622, false),array('modifier', 'url2html', 'cache/modules/Opportunities/DetailView.tpl', 622, false),array('modifier', 'nl2br', 'cache/modules/Opportunities/DetailView.tpl', 622, false),)), $this); ?>
 
 
 <script language="javascript">
@@ -619,6 +619,36 @@ class="yui-navset detailview_tabs"
 
 </span>
 <?php endif; ?>
+</td>
+</tr>
+<?php $this->_smarty_vars['capture']['tr'] = ob_get_contents();  $this->assign('tableRow', ob_get_contents());ob_end_clean();  if ($this->_tpl_vars['fieldsUsed'] > 0 && $this->_tpl_vars['fieldsUsed'] != $this->_tpl_vars['fieldsHidden']):  echo $this->_tpl_vars['tableRow']; ?>
+
+<?php endif;  echo smarty_function_counter(array('name' => 'fieldsUsed','start' => 0,'print' => false,'assign' => 'fieldsUsed'), $this);?>
+
+<?php echo smarty_function_counter(array('name' => 'fieldsHidden','start' => 0,'print' => false,'assign' => 'fieldsHidden'), $this);?>
+
+<?php ob_start(); ?>
+<tr>
+<?php echo smarty_function_counter(array('name' => 'fieldsUsed'), $this);?>
+
+<td width='12.5%' scope="col">
+<?php if (! $this->_tpl_vars['fields']['costo_cotizacion_html']['hidden']):  ob_start();  echo smarty_function_sugar_translate(array('label' => 'LBL_COSTO_COTIZACION_HTML','module' => 'Opportunities'), $this); $this->_smarty_vars['capture']['label'] = ob_get_contents();  $this->assign('label', ob_get_contents());ob_end_clean();  echo ((is_array($_tmp=$this->_tpl_vars['label'])) ? $this->_run_mod_handler('strip_semicolon', true, $_tmp) : smarty_modifier_strip_semicolon($_tmp)); ?>
+:
+<?php endif; ?>
+</td>
+<td width='37.5%'  >
+<?php if (! $this->_tpl_vars['fields']['costo_cotizacion_html']['hidden']):  echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
+
+<span id="costo_cotizacion_html" class="sugar_field"><?php echo smarty_function_costo_cotizacion(array('id' => $this->_tpl_vars['fields']['id']['value'],'module' => 'cotizacion'), $this);?>
+</span>
+<?php endif; ?>
+</td>
+<?php echo smarty_function_counter(array('name' => 'fieldsUsed'), $this);?>
+
+<td width='12.5%' scope="col">
+&nbsp;
+</td>
+<td width='37.5%'  >
 </td>
 </tr>
 <?php $this->_smarty_vars['capture']['tr'] = ob_get_contents();  $this->assign('tableRow', ob_get_contents());ob_end_clean();  if ($this->_tpl_vars['fieldsUsed'] > 0 && $this->_tpl_vars['fieldsUsed'] != $this->_tpl_vars['fieldsHidden']):  echo $this->_tpl_vars['tableRow']; ?>

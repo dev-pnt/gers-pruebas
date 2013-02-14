@@ -2458,6 +2458,7 @@ addToValidate('EditView', 'referencias', 'varchar', false,'{/literal}{sugar_tran
 addToValidate('EditView', 'suma_mejor_estimado', 'bool', false,'{/literal}{sugar_translate label='LBL_SUMA_MEJOR_ESTIMADO' module='Opportunities' for_js=true}{literal}' );
 addToValidate('EditView', 'encargado_oferta', 'enum', false,'{/literal}{sugar_translate label='LBL_ENCARGADO_OFERTA' module='Opportunities' for_js=true}{literal}' );
 addToValidate('EditView', 'costo_personal', 'html', false,'{/literal}{sugar_translate label='LBL_COSTO_PERSONAL' module='Opportunities' for_js=true}{literal}' );
+addToValidate('EditView', 'costo_cotizacion_html', 'html', false,'{/literal}{sugar_translate label='LBL_COSTO_COTIZACION_HTML' module='Opportunities' for_js=true}{literal}' );
 addToValidate('EditView', 'costo_gastos', 'html', false,'{/literal}{sugar_translate label='LBL_COSTO_GASTOS' module='Opportunities' for_js=true}{literal}' );
 addToValidate('EditView', 'costo_categorias', 'html', false,'{/literal}{sugar_translate label='LBL_COSTO_CATEGORIAS' module='Opportunities' for_js=true}{literal}' );
 addToValidate('EditView', 'create_flag', 'bool', false,'{/literal}{sugar_translate label='LBL_CREATE_FLAG' module='Opportunities' for_js=true}{literal}' );

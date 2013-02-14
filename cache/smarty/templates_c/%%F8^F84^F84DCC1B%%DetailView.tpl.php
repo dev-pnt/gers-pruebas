@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2013-02-08 17:01:15
+<?php /* Smarty version 2.6.11, created on 2013-02-14 10:08:20
          compiled from cache/modules/Project/DetailView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'cache/modules/Project/DetailView.tpl', 33, false),array('function', 'sugar_translate', 'cache/modules/Project/DetailView.tpl', 40, false),array('function', 'counter', 'cache/modules/Project/DetailView.tpl', 49, false),array('function', 'sugar_number_format', 'cache/modules/Project/DetailView.tpl', 86, false),array('function', 'sugar_ajax_url', 'cache/modules/Project/DetailView.tpl', 304, false),array('function', 'multienum_to_array', 'cache/modules/Project/DetailView.tpl', 349, false),array('function', 'costo_categorias', 'cache/modules/Project/DetailView.tpl', 403, false),array('function', 'costo_gastos', 'cache/modules/Project/DetailView.tpl', 425, false),array('function', 'sugar_getjspath', 'cache/modules/Project/DetailView.tpl', 708, false),array('modifier', 'strip_semicolon', 'cache/modules/Project/DetailView.tpl', 59, false),array('modifier', 'escape', 'cache/modules/Project/DetailView.tpl', 240, false),array('modifier', 'url2html', 'cache/modules/Project/DetailView.tpl', 240, false),array('modifier', 'nl2br', 'cache/modules/Project/DetailView.tpl', 240, false),array('modifier', 'datos_proyecto', 'cache/modules/Project/DetailView.tpl', 478, false),array('modifier', 'number_format', 'cache/modules/Project/DetailView.tpl', 500, false),)), $this); ?>
@@ -310,7 +310,7 @@ class="yui-navset detailview_tabs"
 
 
 
-<?php $this->assign('value', "23-01-2013"); ?>
+<?php $this->assign('value', "12/06/2012"); ?>
 <span class="sugar_field" id="<?php echo $this->_tpl_vars['fields']['date_entered']['name']; ?>
 "><?php echo $this->_tpl_vars['value']; ?>
 </span>

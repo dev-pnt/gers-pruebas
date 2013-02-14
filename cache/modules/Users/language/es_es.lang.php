@@ -1,5 +1,5 @@
 <?php
-// created: 2013-02-08 16:55:38
+// created: 2013-02-14 08:48:12
 $mod_strings = array (
   'LBL_ASSIGN_PRIVATE_TEAM' => '(equipo privado al guardar)',
   'LBL_ASSIGN_TEAM' => 'Asignar a equipo',

@@ -7,11 +7,9 @@ $hook_array = Array();
 $hook_array['before_save'] = Array(); 
 $hook_array['before_save'][] = Array(1, 'Total_actividad', 'custom/modules/AF_ActividadCotizaciones/functions.php','functions', 'costo_actividad');  
   
-$hook_array['after_save'][] = Array(2, 'suma a valor cotizacion', 'custom/modules/AF_ActividadCotizaciones/functions.php','functions', 'valor_cot');
 $hook_array['after_save'][] = Array(1, 'Total_actividad', 'custom/modules/AF_ActividadCotizaciones/functions.php','functions', 'costo_actividad');  
 $hook_array['after_save'][] = Array(2, 'suma a valor cotizacion', 'custom/modules/AF_ActividadCotizaciones/functions.php','functions', 'valor_cot');  
+$hook_array['after_relationship_delete'] = Array(); 
+$hook_array['after_relationship_delete'][] = Array(1, 'act_valorcot_alborrar', 'custom/modules/AF_ActividadCotizaciones/functions.php','functions', 'del_valor_cot'); 
 $hook_array['after_ui_frame'] = Array(); 
-
-
-
 ?>

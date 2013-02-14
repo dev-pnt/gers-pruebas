@@ -12,6 +12,10 @@ $hook_array['after_save'] = Array();
 $hook_array['after_save'][] = Array(1, 'calcula_costo', 'custom/modules/af_costos_directos/functions.php','functions', 'subtotal');  
 $hook_array['after_save'][] = Array(2, 'calcula_cotizacion', 'custom/modules/af_costos_directos/functions.php','functions', 'valor_cot');  
 
+
+$hook_array['after_relationship_delete'] = Array();
+$hook_array['after_relationship_delete'][] = Array(1, 'Actualiza_cotizacion', 'custom/modules/af_costos_directos/functions.php','functions', 'del_valor_cot');  
+
 $hook_array['after_ui_frame'] = Array(); 
 
 ?>
